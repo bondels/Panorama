@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>scrollTop demo</title>
+  <style>
+      .up {
+          width:100px;
+          height: 600px;
+          background-color: red;
+      }
+
+      .down {
+          width:100px;
+          height: 400px;
+          background-color: yellow;
+      }
+  </style>
+
+</head>
+<body>
+ 
+<a id="up" href="#down">down</a>
+<div class="up"></div>
+
+<a id="down" href="#up">up</a>
+<div class="down"></div>
+ 
+   <script>
+            $('#up, #down').on('click', function(e){
+          e.preventDefault();
+          var target= $(this).get(0).id == 'up' ? $('#down') : $('#up');
+          $('html, body').stop().animate({
+             scrollTop: target.offset().top
+          }, 1000);
+      });
+  </script>
+</body>
+</html>
