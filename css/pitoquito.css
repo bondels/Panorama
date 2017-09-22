@@ -1,0 +1,4990 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: helvetica;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+.caja { 
+    margin: 0 auto;
+    max-width: 1000px;
+    height: auto;
+}
+
+.caja_colum {
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    margin-left: 8.5%;
+}
+
+.publicidad {
+    margin-bottom: 16px;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.b_publi {
+    font-family: helvetica;
+    width: 93.5%;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    color: #B0B0B0;
+    padding: 0px 5px 0px 0px;
+    font-size: 10px;
+    text-align: right;
+    margin: auto;
+    height: 16px;
+}
+
+.banner-horizontal {
+    width: 100%;
+    height:auto;
+    float: left;
+}
+
+.publicidad-3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+.banner-3 {
+        width: 100%;
+    }
+
+    .banner-3 img {
+        width: 100%;
+    }
+
+.header-w {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.banner-horizontal img {
+    width: 100%;
+}
+
+.banner img {
+    width: 95%;
+}
+
+.linea_top {
+    width: 100%;
+    float: left;
+    height: 20px;
+    margin-top: -10px;
+    background: url("../images/pitoquito/linea_top.png");
+    background-repeat: repeat-x;
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    .border_cuerpo {
+    display: block;
+    border: 0px solid white;
+    background-color: #fff;
+    float: initial;
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 0px !important;
+    width: 95%;
+    margin-left: 2.5%;
+    height: auto;
+    }
+
+    /* Laterales ---------------------------------------------------------------------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+    }
+
+.B-hori-img {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../images/banner_300x60_4.jpg);
+    background-repeat: no-repeat;
+}
+
+.publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+    .publicidad {
+    margin-bottom: 16px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 0px !important;
+    }
+
+    .sec_prin {
+    width: 40%;
+    height: 38px !important;
+    margin-top: -7%;
+    margin-left: -4.3%;
+    position: absolute;
+    color: #00656f;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px !important;
+    background: url("../images/pitoquito/banda_nota_azul.png");
+    background-size: 100%;
+    padding-top: 3%;
+    padding-left: 6%;
+    }
+
+    .foto_tema img {
+    width: 150px !important;
+    height: 150px !important;
+    border: 4px solid #3765a3;
+    }
+
+    .foto_tema {
+    margin-top: 27%;
+    margin-left: 23% !important;
+    float: left;
+    }
+
+    .titular_tema {
+    font-size: 19px !important;
+    }
+
+    .texto_tema {
+    font-size: 22px !important;
+    }
+
+    .vermas_tema {
+    float: left;
+    margin-top: 0%;
+    margin-left: 16% !important;
+    }
+
+    .vermas_tema img {
+    width: 80% !important;
+    }
+
+    .sec_1 {
+    width: 45%;
+    height: 43px !important;
+    padding-top: 3% !important;
+    padding-left: 4%;
+    }
+
+    .tit_efe img {
+    width: 63% !important;
+    }
+
+    .nina_colorea {
+    float: left;
+    margin-left: 70px;
+    margin-top: -149px;
+    position: absolute;
+    }
+
+    .nina_colorea img {
+    width: 70%;
+    }
+
+        /* Detalle de noticia ----------------------------------------------------------------------------------*/
+    .header_web_detalle {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .sec_detalle {
+    width: 128px;
+    height: 31px;
+    margin-top: -0.1%;
+    margin-left: 0.5%;
+    position: absolute;
+    color: #966702;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background: url("../images/pitoquito/banda_nota_naranja.png");
+    background-size: 100%;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    }
+
+    .titular_detalle_p {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    margin-top: 35px;
+    color: #00b4c5;
+    font-size: 27px;
+    line-height: 37px;
+    font-family: "FredokaOne";
+    text-transform: uppercase;
+    }
+
+    .iconos_pito_detalle {
+    width: 74%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px !important;
+    float: none;
+    }
+
+    .cuerpo_pito {
+    width: 100%;
+    float: left;
+    color: #545454;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .cuerpo_pito img {
+    width: 100%;
+    }
+
+    .cant-like_pito {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_pito {
+    background: #e39602;
+    color: #fff;
+    font-size: 28px;
+    line-height: 65px;
+    font-family: "GILGON";
+    }
+
+    .text_relacionadas {
+    font-size: 20px !important;
+    }
+
+    @font-face {
+    font-family: "GILGON";
+    src: url("../fonts/GILGON.ttf");
+    }
+
+    .tit-comment_pito {
+    background: #71af39;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "GILGON";
+    }
+
+    .cancelar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 21%;
+    }
+
+    .iniciar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    }
+
+    .registrar_pito {
+    float: left;
+    margin-top: -22px;
+    margin-bottom: 30px;
+    margin-left: 21%;
+    }
+
+    .comentarios-login_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .btn-comment_pito {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .comentarios-box_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .comenta-box_pito {
+    border: 2px solid #71af39 !important;
+    }
+
+    .username_pito {
+    width: 100%;
+    font-size: 600 13px;
+    color: #71af39;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .userphoto_pito {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/pitoquito/user_pito.png);
+    }
+
+    .sec_d1 {
+    width: 42%;
+    height: 38px;
+    margin-top: -6%;
+    margin-left: -1.5%;
+    position: absolute;
+    color: #316303;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    background: url("../images/pitoquito/banda_nota_verde.png");
+    background-size: 100% 96%;
+    padding-top: 2.7%;
+    padding-left: 3%;
+    }
+
+    .franja_detalle {
+    float: right;
+    width: 100%;
+    height: 50px;
+    background: #65b91b;
+    margin-top: 100px;
+    margin-bottom: 2px;
+    }
+
+    .nina_detalle {
+    float: left;
+    margin-left: -35px;
+    margin-top: -154px;
+    position: absolute;
+    }
+
+    .nina_detalle img {
+    width: 69%;
+    }
+
+    .tit_mas_detalle {
+    float: left;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -42px;
+    }
+
+    .tit_mas_detalle img {
+    width: 84%;
+    }
+
+    .top_seccion {
+    margin-top: 30px;
+    }
+
+    .nota_1 {
+    width: 95% !important;
+    margin-left: 2.5% !important;
+    height: auto;
+    /* margin: auto; */
+    float: left;
+    background: #ce3c8c;
+    }
+
+    .titular_1 {
+    width: 100%;
+    float: left;
+    padding: 22px 10px 15px;
+    color: #FFF;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.btn_mas {
+    margin: auto;
+    float: left;
+    margin-top: 46px;
+    margin-left: 11.5% !important;
+    }
+
+}
+
+
+@media screen and (max-width: 599px) {
+
+    .slide-efe-web {
+    display: none;
+    }
+
+    .efe-movil {
+    display: block;
+    }
+
+    .nota-cuadro_caja-10-11 {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    }
+
+    .seccion-movil {
+    display: block;
+    }
+
+    .twit-face {
+    display: none;
+    }
+
+    .bloque-twit {
+    width: 49%;
+    float: left;
+    }
+
+    .col1-especial {
+    float: right;
+    width: 100%;
+    margin-top: 5px;
+    }
+
+
+    .tall-tablet {
+    height: initial;
+    }
+
+    .col1-10-11 {
+    width: 100%;
+    }
+
+.margin-insta {
+    margin-left: 0%;
+}
+
+.B-hori-img {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../images/banner_300x60_4.jpg);
+    background-repeat: no-repeat;
+}
+
+.publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+    .border_cuerpo {
+    display: block;
+    border: 0px solid white;
+    background-color: #fff;
+    float: initial;
+    }
+
+    /* Laterales ----------------------------------------------------------------------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+    }
+
+    .ws_icon {
+    display: block;
+    }
+
+    .publicidad-avances {
+        display: none;
+    }
+
+    .bloque1 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+     .header_web {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .header_movil {
+    display: block; 
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .header_movil img {
+    width: 100%;
+    }
+
+    .logo_pito {
+        width: 39.6%;
+        height: auto;
+        float: left;
+    }
+
+    .logo_pito img {
+        width: 100%;
+    }
+
+    .pito_header {
+        width: 24.8%;
+        height: auto;
+        float: left;
+    }
+
+    .pito_header img {
+        width: 100%;
+    }
+
+    .volver_pano {
+        width: 35.6%;
+        height: auto;
+        float: left;
+        background: url("../images/pitoquito/header2.png");
+        background-size: 100%;
+    }
+
+    .volver_logo {
+        width: auto;
+        margin-top: 13.5%;
+        margin-left: 3.54%;
+        padding-bottom: 14%;
+    }
+
+    .volver_logo img {
+        width: 90%;
+    }
+
+    .col1 {
+    width: 100%;
+    margin-left: 0%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .nota_prin {
+    width: 95%;
+    margin-left: 2.5%;
+    height: auto;
+    float: left;
+    background: #fdad00;
+    }
+
+    .nota_prin:hover {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #F7941D;
+    }
+
+    .nota_verde {
+    background: #70bd2a !important;
+    }
+
+    .foto_prin {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .redes {
+    width: 40%;
+    height: auto;
+    top: 6%;
+    right: 3%;
+    position: absolute;
+    }
+
+    .redes_icon {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    .sec_prin {
+    width: 40%;
+    height: 44px;
+    margin-top: -7%;
+    margin-left: -4.3%;
+    position: absolute;
+    color: #00656f;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    background: url("../images/pitoquito/banda_nota_azul.png");
+    background-size: 100%;
+    padding-top: 3%;
+    padding-left: 6%;
+    }
+
+    .sec_prin_2 {
+    background: url("../images/pitoquito/banda_nota_fucsia.png") !important;
+    background-size: 100% !important;
+    color: #6f244d !important;
+    }
+
+    .texto_prin {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    }
+
+    .titular_prin {
+    width: 100%;
+    float: left;
+    padding: 0px;
+    color: #FFF;
+    font-size: 1.9em;
+    line-height: 1.3em;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+    .titular_prin a {
+    width: 100%;
+    float: left;
+    padding: 10px 9px 15px;
+    color: #FFF;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+    .titular_prin a:hover {
+    color: #FFF;
+    text-decoration: none;
+    }
+
+    @font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne-Regular.ttf");
+    }
+
+    .col2 {
+    width: 100%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .tema_box {
+    display: none;
+    float: right;
+    width: 95%;
+    margin-right: 2.5%;
+    margin-top: 40px;
+    height: 615px;
+    padding-bottom: 20px;
+    background: url("../images/pitoquito/fondo_temadelasemana.png");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    }
+
+    .foto_tema {
+    margin-top: 27%;
+    margin-left: 23%;
+    float: left;
+    } 
+
+    .foto_tema img {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3765a3;
+    }
+
+    .titular_tema {
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 0%;
+    padding: 10px 10px 0px;
+    color: #00b4c5;
+    font-size: 1.7em;
+    line-height: 30px;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+    .texto_tema {
+    width: 85%;
+    float: left;
+    margin-left: 8%;
+    padding: 10px 5px 15px;
+    color: #000;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .vermas_tema {
+    float: left;
+    margin-top: 6%;
+    margin-left: 22%;
+    }
+
+    .vermas_tema img {
+        width: 70%;
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 0px;
+    width: 95%;
+    margin-left: 2.5%;
+    height: auto;
+    }
+
+    .nota-cuadro_caja {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    }
+
+    /* Nota 1 ----------------------------------*/
+    .nota_1 {
+    width: 95%;
+    margin-left: 2.5%;
+    height: auto;
+    float: left;
+    background: #ce3c8c;
+    }
+
+    .nota_1:hover {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #71AF39;
+    }
+
+    .nota_color2 {
+    background: #03b5d9;
+    }
+
+    .foto_1 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    }
+
+    .redes_1 {
+    width: 40%;
+    height: auto;
+    bottom: 1%;
+    right: 0.5%;
+    position: absolute;
+    }
+
+    .redes_icon_1 {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon_1 img {
+    width: 90%;
+    height: auto;
+    }
+
+    .sec_1 {
+    width: 45%;
+    height: 50px;
+    margin-top: -8%;
+    margin-left: -1.2%;
+    position: absolute;
+    color: #316303;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background: url("../images/pitoquito/banda_nota_verde_2.png");
+    background-size: 100%;
+    padding-top: 4%;
+    padding-left: 4%;
+    }
+
+    .sec_1_inst {
+    width: 48% !important;
+    }
+
+    .texto_1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    }
+
+    .titular_1 {
+    width: 100%;
+    float: left;
+    padding: 22px 10px 15px;
+    color: #FFF;
+    font-size: 1.8em;
+    line-height: 32px;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: left;
+    }
+
+    .titular_1 a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .titular_1 a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    @font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne-Regular.ttf");
+    }
+
+    /* Fin Nota 1 ----------------------------------*/
+
+    .efemerides_bg {
+    float: left;
+    width: 100%;
+    height: 359px;
+    margin-top: 100px;
+    background-image: url("../images/pitoquito/bg_efemeride.png");
+    background-size: 59% 100%;
+    background-size: none;
+    }
+
+    .nino_efe {
+    display: none;
+    float: left;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 30px;
+    }
+
+    .tit_efe {
+    float: left;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 59px;
+    }
+
+    .tit_efe img {
+    width: 74%;
+    }
+
+    .catire_efe {
+    float: left;
+    position: absolute;
+    margin-left: -4%;
+    margin-top: 20px;
+    }
+
+    .catire_efe img {
+    width: 90%;
+    }
+
+    /* Efemerides ----------------------------------*/
+    .carrusel_ancho {
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
+    }
+
+    .caja_colum {
+    width: 80%;
+    height: 240px;
+    margin-left: 50px;
+    text-align: center;
+    float: left;
+    }
+
+    .caja_colum_efe {
+    width: 80%;
+    height: 280px;
+    margin-left: 50px;
+    text-align: center;
+    float: left;
+    }
+
+    .nota-colum-3 {
+    float: left;
+    width: 100% !important;
+    margin-left: 0px !important;
+    }
+
+    .nota-efeme {
+    width: 100%;
+    }
+
+    .foto_efeme {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+    .foto_efeme img {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3765a3; 
+    }
+
+    .nombre_efeme {
+    display: inline;
+    color: #3765a3;
+    margin-top: 10px;
+    font-family: "FredokaOne";
+    font-size: 1.7em;
+    }
+
+    .nombre_efeme a {
+    color: #3765a3;
+    }
+
+    .nombre_efeme a:hover {
+    color: #3765a3;
+    text-decoration: none;
+    }
+
+    .titular_efeme {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 5px 5px 15px;
+    color: #000;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "FredokaOne";
+    }
+
+    .titular_efeme a {
+    color: #000;
+    }
+
+    .titular_efeme a:hover {
+    color: #3765a3;
+    text-decoration: none;
+    }
+
+    /* Fin Efemerides ----------------------------------*/
+
+
+    /* Instagram ----------------------------------*/
+    .nota-cuadro_doble {
+    width: 100%;
+    float: left;
+    }
+
+    .nota-cuadro_2 {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    }
+
+    .col1_inst {
+    width: 95%;
+    margin-left: 2.5%;
+    float: left;
+    margin-top: 30px;
+    }
+
+    .col2_inst {
+    width: 100%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .header_insta {
+    width: 95%;
+    margin-left: 2.5%;
+    float: left;
+    }
+
+    .header_insta img {
+    width: 100%;
+    }
+
+
+    .wi_pito_web {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .wi_pito_tablet {
+    display: none;
+    width: 100%;
+    float: left;
+    }
+
+
+    /* Fotoquito y cumpleañero ----------------------------------*/
+    
+    .col1_fotoquito {
+    float: left;
+    width: 95%;
+    margin-left: 2.5%;
+    }
+
+    .col2_fotoquito {
+    width: 95%;
+    margin-right: 2.5%;
+    float: right;
+    }
+
+    .fotoquito {
+    width: 100%;
+    float: left;
+    }
+
+    .fotoquito img {
+    width: 100%;
+    }
+
+    .cumple {
+    width: 100%;
+    float: left;
+    margin-top: 46px;
+    }
+
+    .cumple img {
+    width: 100%;
+    }
+
+    .top_doble {
+    margin-top: 5px;
+    }
+
+    .top_bloque {
+    margin-top: 20px;
+    }
+
+    .linea_publi {
+    width: 100%;
+    height: 20px;
+    background: url("../images/pitoquito/linea_publi.jpg");
+    }
+
+    /* Recetas ----------------------------------*/
+    .recetas_bg {
+    float: left;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    background-image: url("../images/pitoquito/bg_recetas.png");
+    background-size: none;
+    }
+
+    .nombre_receta {
+    display: inline;
+    color: #005212;
+    margin-top: 10px;
+    font-family: "FredokaOne";
+    font-size: 1.5em;
+    line-height: 25px;
+    }
+
+    .nombre_receta a {
+    color: #005212;
+    }
+
+    .nombre_receta a:hover {
+    color: #005212;
+    text-decoration: none;
+    }
+
+    .cocinera {
+    float: left;
+    margin-left: -20px;
+    margin-right: 5px;
+    margin-top: -105px;
+    }
+
+    .cocinera img {
+    width: 100%;
+    }
+
+    .franja_receta {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #ffe139;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    }
+
+    .tit_recetas {
+    float: left;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -50px;
+    }
+
+    .tit_recetas img {
+    width: 80%;
+    }
+
+    /* Imprime y colorea----------------------------------*/
+    .colorea {
+    display: none;
+    }
+
+    .imprime_bg {
+    display: none;
+    float: left;
+    width: 100%;
+    height: 230px;
+    margin-top: -20px;
+    background-image: url("../images/pitoquito/bg_imprimeycolorea.png");
+    background-size: none;
+    }
+    .nina_colorea {
+    float: left;
+    margin-left: 0px;
+    margin-top: -149px;
+    position: absolute;
+    }
+
+    .tit_imprime {
+    float: left;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -66px;
+    width: initial;
+    }
+
+    .tit_imprime img {
+        width: 100%;
+    }
+
+    .franja_colorea {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #ce3c8c;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    }
+
+    .foto_colo img {
+    width: 110px;
+    height: 110px;
+    border: 4px solid #3765a3;
+    border-radius: 10%;
+    }
+
+    .nota-colo-3 {
+    float: left;
+    width: 17%;
+    }
+
+    .caja_color {
+    width: 90%;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+    float: left;
+    }
+
+    /* Ver más----------------------------------*/
+    .btn_mas {
+    margin: auto;
+    float: left;
+    margin-top: 46px;
+    margin-left: 15.5%;
+    }
+
+
+    /* Botonera----------------------------------*/
+    .botonera {
+    float: none;
+    width: 100%;
+    background: #00b4c5;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    }
+    .botonera_movil {
+    display: block;
+    float: left;
+    width: 100%;
+    background: #00b4c5;
+    height: auto;
+    margin-top: 10px;
+    padding-bottom: 15px;   
+    }
+
+    .botonera_ancho {
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .botonera_ancho_2 {
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .linea_boton {
+    background: url("../images/pitoquito/linea_boton.png");
+    width: 90%;
+    height: 20px;
+    background-repeat: repeat-x;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5%;
+    }
+
+    .botonera_ancho img {
+    width: 100%;
+    }
+
+    .botonera_imprime {
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .botonera_imprime img {
+    width: 140%;
+    }
+
+    .left_btn {
+    margin-left: 1.5%;
+    }
+
+    .linea_bottom {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 40px;
+    float: left;
+    height: 10px;
+    background: url("../images/pitoquito/linea_top.png");
+    background-repeat: repeat-x;
+    }
+
+
+    /* footer ----------------------------------*/
+    .footer_web {
+    display: none;
+    width: 100%;
+    height: 60px;
+    background-image: url("../images/pitoquito/banda_footer.png");
+    background-size: 100%;
+    float: left;
+    margin-top: 70px;
+    }
+
+    .footer_movil {
+    display: block; 
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+    }
+
+    .footer_movil img {
+    width: 100%;
+    }
+
+    .pito_footer {
+    width: 30%;
+    margin-left: 27px;
+    float: left;
+    }
+
+    .pito_footer img {
+    width: 80%;
+    }
+
+    .nino_footer {
+    float: left;
+    margin-left: 33%;
+    margin-top: -47px;
+    }
+
+    .nino_footer img {
+    width: 80%;
+    }
+
+    .boton_subir {
+    float: left;
+    margin-left: 83%;
+    margin-top: -42px;
+    }
+
+    .boton_subir img {
+    width: 80%;
+    }
+
+    /* Detalle de noticia ----------------------------------------------------------------------------------*/
+    .header_web_detalle {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .sec_detalle {
+    width: 128px;
+    height: 31px;
+    margin-top: -0.1%;
+    margin-left: 0.5%;
+    position: absolute;
+    color: #966702;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background: url("../images/pitoquito/banda_nota_naranja.png");
+    background-size: 100%;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    }
+
+    .titular_detalle_p {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    margin-top: 35px;
+    color: #00b4c5;
+    font-size: 27px;
+    line-height: 37px;
+    font-family: "FredokaOne";
+    text-transform: uppercase;
+    }
+
+    .iconos_pito_detalle {
+    width: 65%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px !important;
+    float: none;
+    }
+
+    .cuerpo_pito {
+    width: 100%;
+    float: left;
+    color: #545454;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .cuerpo_pito img {
+    width: 100%;
+    }
+
+    .cant-like_pito {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_pito {
+    background: #e39602;
+    color: #fff;
+    font-size: 28px;
+    line-height: 65px;
+    font-family: "GILGON";
+    }
+
+    .text_relacionadas {
+    font-size: 27px;
+    }
+
+    @font-face {
+    font-family: "GILGON";
+    src: url("../fonts/GILGON.ttf");
+    }
+
+    .tit-comment_pito {
+    background: #71af39;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "GILGON";
+    }
+
+    .cancelar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 21%;
+    }
+
+    .iniciar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    }
+
+    .registrar_pito {
+    float: left;
+    margin-top: -22px;
+    margin-bottom: 30px;
+    margin-left: 21%;
+    }
+
+    .comentarios-login_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .btn-comment_pito {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .comentarios-box_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .comenta-box_pito {
+    border: 2px solid #71af39 !important;
+    }
+
+    .username_pito {
+    width: 100%;
+    font-size: 600 13px;
+    color: #71af39;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .userphoto_pito {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/pitoquito/user_pito.png);
+    }
+
+    .sec_d1 {
+    width: 42%;
+    height: 38px;
+    margin-top: -6%;
+    margin-left: -1.5%;
+    position: absolute;
+    color: #316303;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    background: url("../images/pitoquito/banda_nota_verde.png");
+    background-size: 100% 96%;
+    padding-top: 2.7%;
+    padding-left: 3%;
+    }
+
+    .franja_detalle {
+    float: right;
+    width: 100%;
+    height: 50px;
+    background: #65b91b;
+    margin-top: 100px;
+    margin-bottom: 2px;
+    }
+
+    .nina_detalle {
+    float: left;
+    margin-left: -35px;
+    margin-top: -154px;
+    position: absolute;
+    }
+
+    .nina_detalle img {
+    width: 69%;
+    }
+
+    .tit_mas_detalle {
+    float: left;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -42px;
+    }
+
+    .tit_mas_detalle img {
+    width: 84%;
+    }
+
+    .top_seccion {
+    margin-top: 30px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 600px) {
+
+    .slide-efe-web {
+    display: none;
+    }
+
+    .efe-movil {
+    display: block;
+    }
+
+    .seccion-movil {
+    display: block;
+    }
+
+    .twit-face {
+    display: none;
+    }
+
+    .col1-especial {
+    float: right;
+    width: 100%;
+    margin-top: 5px;
+    }
+
+    .col1-10-11 {
+    width: 100%;
+    }
+
+    /* Laterales ----------------------------------------------------------------------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+    }
+
+    .lateral_space {
+        margin-left: 0%;
+    }
+
+    .publicidad-avances {
+        display: none;
+    }
+
+       .bloque1 {
+        margin: 0 auto;
+        width: 96%;
+    }
+
+     .header_web {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .header_movil {
+    display: block; 
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .header_movil img {
+    width: 100%;
+    }
+
+    .logo_pito {
+        width: 39.6%;
+        height: auto;
+        float: left;
+    }
+
+    .logo_pito img {
+        width: 100%;
+    }
+
+    .pito_header {
+        width: 24.8%;
+        height: auto;
+        float: left;
+    }
+
+    .pito_header img {
+        width: 100%;
+    }
+
+    .volver_pano {
+        width: 35.6%;
+        height: auto;
+        float: left;
+        background: url("../images/pitoquito/header2.png");
+        background-size: 100%;
+    }
+
+    .volver_logo {
+        width: auto;
+        margin-top: 13.5%;
+        margin-left: 3.54%;
+        padding-bottom: 14%;
+    }
+
+    .volver_logo img {
+        width: 90%;
+    }
+
+    .col1 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .nota_prin {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #fdad00;
+    }
+
+    .nota_verde {
+    background: #70bd2a !important;
+    }
+
+    .foto_prin {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .redes {
+    width: 40%;
+    height: auto;
+    top: 4%;
+    right: 3%;
+    position: absolute;
+    }
+
+    .redes_icon {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    .sec_prin {
+    width: 40%;
+    height: 73px;
+    margin-top: -7%;
+    margin-left: -3.4%;
+    position: absolute;
+    color: #00656f;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.9em;
+    background: url("../images/pitoquito/banda_nota_azul.png");
+    background-size: 100%;
+    padding-top: 3%;
+    padding-left: 6%;
+    }
+
+    .sec_prin_2 {
+    background: url("../images/pitoquito/banda_nota_fucsia.png") !important;
+    color: #6f244d !important;
+    }
+
+    .texto_prin {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    float: left;
+    }
+
+    .titular_prin {
+    width: 100%;
+    float: left;
+    padding: 15px 10px 15px;
+    color: #FFF;
+    font-size: 2em;
+    line-height: 1.3em;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+    @font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne-Regular.ttf");
+    }
+
+    .col2 {
+    width: 100%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .tema_box {
+    float: right;
+    width: 80%;
+    margin-right: 10%;
+    margin-top: 40px;
+    height: auto;
+    padding-bottom: 20px;
+    background: url("../images/pitoquito/fondo_temadelasemana.png");
+    background-size: 100%;
+    background-repeat: no-repeat;  
+    }
+
+    .foto_tema {
+    margin-top: 27%;
+    margin-left: 25%;
+    float: left;
+    } 
+
+    .foto_tema img {
+    width: 220px;
+    height: 220px;
+    border: 4px solid #3765a3;
+    }
+
+    .titular_tema {
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 10px 10px 0px;
+    color: #00b4c5;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+    .texto_tema {
+    width: 85%;
+    float: left;
+    margin-left: 8%;
+    padding: 10px 5px 15px;
+    color: #000;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .vermas_tema {
+    float: left;
+    margin-top: 0%;
+    margin-left: 20%;
+    }
+
+    .vermas_tema img {
+    width: 70%;
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    }
+
+    .nota-cuadro_caja {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    }
+
+    /* Nota 1 ----------------------------------*/
+    .nota_1 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #ce3c8c;
+    }
+
+    .nota_color2 {
+    background: #03b5d9;
+    }
+
+    .foto_1 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    }
+
+    .redes_1 {
+    width: 40%;
+    height: auto;
+    bottom: 1%;
+    right: 0.5%;
+    position: absolute;
+    }
+
+    .redes_icon_1 {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon_1 img {
+    width: 90%;
+    height: auto;
+    }
+
+    .sec_1 {
+    width: 30%;
+    height: 55px;
+    margin-top: -6%;
+    margin-left: -1.2%;
+    position: absolute;
+    color: #316303;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    background: url("../images/pitoquito/banda_nota_verde_2.png");
+    background-size: 100%;
+    padding-top: 2.8%;
+    padding-left: 4%;
+    }
+
+    .sec_1_inst {
+    width: 48% !important;
+    }
+
+    .texto_1 {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    float: left;
+    }
+
+    .titular_1 {
+    width: 100%;
+    float: left;
+    padding: 22px 10px 15px;
+    color: #FFF;
+    font-size: 2em;
+    line-height: 32px;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+    @font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne-Regular.ttf");
+    }
+
+    /* Fin Nota 1 ----------------------------------*/
+
+    .efemerides_bg {
+    float: left;
+    width: 100%;
+    height: 359px;
+    margin-top: 140px;
+    background-image: url("../images/pitoquito/bg_efemeride.png");
+    background-size: none;
+    }
+
+    .nino_efe {
+    display: none;
+    float: left;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 30px;
+    }
+
+    .tit_efe {
+    float: left;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 85px;
+    }
+
+    .tit_efe img {
+    width: 85%;
+    }
+
+    .catire_efe {
+    float: left;
+    position: absolute;
+    margin-left: -4%;
+    margin-top: 25px;
+    }
+
+    /* Efemerides ----------------------------------*/
+    .carrusel_ancho {
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
+    }
+
+    .caja_colum {
+    width: 90%;
+    height: 244px;
+    margin-left: 50px;
+    text-align: center; 
+    float: left;
+    }
+
+    .nota-colum-3 {
+    float: left;
+    width: 90%;
+    }
+
+    .nota-efeme {
+    width: 100%;
+    }
+
+    .foto_efeme {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+    .foto_efeme img {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3765a3; 
+    }
+
+    .nombre_efeme {
+    display: inline;
+    color: #3765a3;
+    margin-top: 10px;
+    font-family: "FredokaOne";
+    font-size: 1.7em;
+    }
+
+    .nombre_efeme a {
+    color: #3765a3;
+    }
+
+    .nombre_efeme a:hover {
+    color: #3765a3;
+    text-decoration: none;
+    }
+
+    .titular_efeme {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 5px 5px 15px;
+    color: #000;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "FredokaOne";
+    }
+
+    .titular_efeme a {
+    color: #000;
+    }
+
+    .titular_efeme a:hover {
+    color: #3765a3;
+    text-decoration: none;
+    }
+
+    /* Fin Efemerides ----------------------------------*/
+
+
+    /* Instagram ----------------------------------*/
+    .nota-cuadro_doble {
+    width: 100%;
+    float: left;
+    }
+
+    .nota-cuadro_2 {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    }
+
+    .col1_inst {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    }
+
+    .col2_inst {
+    width: 100%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .header_insta {
+    width: 100%;
+    float: left;
+    }
+
+    .header_insta img {
+    width: 100%;
+    }
+
+    .wi_pito_web {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .wi_pito_tablet {
+    display: none;
+    width: 100%;
+    float: left;
+    }
+
+
+    /* Fotoquito y cumpleañero ----------------------------------*/
+    
+    .col1_fotoquito {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    }
+
+    .col2_fotoquito {
+    width: 100%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .fotoquito {
+    width: 100%;
+    float: left;
+    }
+
+    .fotoquito img {
+    width: 100%;
+    }
+
+    .cumple {
+    width: 100%;
+    float: left;
+    margin-top: 46px;
+    }
+
+    .cumple img {
+    width: 100%;
+    }
+
+    .top_doble {
+    margin-top: 5px;
+    }
+
+    .top_bloque {
+    margin-top: 20px;
+    }
+
+    .linea_publi {
+    width: 100%;
+    height: 20px;
+    background: url("../images/pitoquito/linea_publi.jpg");
+    }
+
+    /* Recetas ----------------------------------*/
+    .recetas_bg {
+    float: left;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    background-image: url("../images/pitoquito/bg_recetas.png");
+    background-size: none;
+    }
+
+    .nombre_receta {
+    display: inline;
+    color: #005212;
+    margin-top: 10px;
+    font-family: "FredokaOne";
+    font-size: 1.5em;
+    line-height: 25px;
+    }
+
+    .nombre_receta a {
+    color: #005212;
+    }
+
+    .nombre_receta a:hover {
+    color: #005212;
+    text-decoration: none;
+    }
+
+    .cocinera {
+    float: left;
+    margin-left: -18px;
+    margin-top: -149px;
+    }
+
+    .franja_receta {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #ffe139;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    }
+
+    .tit_recetas {
+    float: left;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: -55px;
+    }
+
+    /* Imprime y colorea----------------------------------*/
+    .colorea {
+    display: none;
+    }
+
+    .imprime_bg {
+    display: none;
+    float: left;
+    width: 100%;
+    height: 230px;
+    margin-top: -20px;
+    background-image: url("../images/pitoquito/bg_imprimeycolorea.png");
+    background-size: none;
+    }
+    .nina_colorea {
+    float: left;
+    margin-left: 70px;
+    margin-top: -149px;
+    position: absolute;
+    }
+
+    .tit_imprime {
+    float: left;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -80px;
+    }
+
+    .franja_colorea {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #ce3c8c;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    }
+
+    .foto_colo img {
+    width: 110px;
+    height: 110px;
+    border: 4px solid #3765a3;
+    border-radius: 10%;
+    }
+
+    .nota-colo-3 {
+    float: left;
+    width: 17%;
+    }
+
+    .caja_color {
+    width: 90%;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+    float: left;
+    }
+
+    /* Ver más----------------------------------*/
+    .btn_mas {
+    margin: auto;
+    float: left;
+    margin-top: 46px;
+    margin-left: 33.5%;
+    }
+
+
+    /* Botonera----------------------------------*/
+    .botonera {
+    display: none;
+    float: left;
+    width: 100%;
+    background: #00b4c5;
+    height: 60px;
+    margin-top: 10px;
+    }
+
+    .botonera_movil {
+    display: block;
+    float: left;
+    width: 100%;
+    background: #00b4c5;
+    height: auto;
+    margin-top: 10px;   
+    }
+
+    .botonera_ancho {
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .botonera_ancho_2 {
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .botonera_ancho img {
+    width: 100%;
+    }
+
+    .botonera_imprime {
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .botonera_imprime img {
+    width: 140%;
+    }
+
+    .left_btn {
+    margin-left: 1.5%;
+    }
+
+    .linea_bottom {
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+    height: 10px;
+    background: url("../images/pitoquito/linea_top.png");
+    background-repeat: repeat-x;
+    }
+
+
+    /* footer ----------------------------------*/
+    .footer_web {
+    display: none;
+    width: 100%;
+    height: 60px;
+    background-image: url("../images/pitoquito/banda_footer.png");
+    background-size: 100%;
+    float: left;
+    margin-top: 70px;
+    }
+
+    .footer_movil {
+    display: block; 
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+    }
+
+    .footer_movil img {
+    width: 100%;
+    }
+
+    .pito_footer {
+    width: 30%;
+    margin-left: 27px;
+    float: left;
+    }
+
+    .pito_footer img {
+    width: 80%;
+    }
+
+    .nino_footer {
+    float: left;
+    margin-left: 33%;
+    margin-top: -47px;
+    }
+
+    .nino_footer img {
+    width: 80%;
+    }
+
+    .boton_subir {
+    float: left;
+    margin-left: 83%;
+    margin-top: -42px;
+    }
+
+    .boton_subir img {
+    width: 80%;
+    }
+
+    /* Detalle de noticia ----------------------------------------------------------------------------------*/
+    .header_web_detalle {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .sec_detalle {
+    width: 128px;
+    height: 31px;
+    margin-top: -0.1%;
+    margin-left: 0.5%;
+    position: absolute;
+    color: #966702;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background: url("../images/pitoquito/banda_nota_naranja.png");
+    background-size: 100%;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    }
+
+    .titular_detalle_p {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    margin-top: 35px;
+    color: #00b4c5;
+    font-size: 33px;
+    line-height: 41px;
+    font-family: "FredokaOne";
+    text-transform: uppercase;
+    }
+
+    .iconos_pito_detalle {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px !important;
+    float: none;
+    }
+
+    .cuerpo_pito {
+    width: 100%;
+    float: left;
+    color: #545454;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .cuerpo_pito img {
+    width: 100%;
+    }
+
+    .cant-like_pito {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_pito {
+    background: #e39602;
+    color: #fff;
+    font-size: 35px;
+    line-height: 65px;
+    font-family: "GILGON";
+    }
+
+    .text_relacionadas {
+    font-size: 40px !important;
+    }
+
+    @font-face {
+    font-family: "GILGON";
+    src: url("../fonts/GILGON.ttf");
+    }
+
+    .tit-comment_pito {
+    background: #71af39;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "GILGON";
+    }
+
+    .cancelar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    }
+
+    .iniciar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 9px;
+    }
+
+    .registrar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    }
+
+    .comentarios-login_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .btn-comment_pito {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .comentarios-box_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .comenta-box_pito {
+    border: 2px solid #71af39 !important;
+    }
+
+    .username_pito {
+    width: 100%;
+    font-size: 600 13px;
+    color: #71af39;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .userphoto_pito {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/pitoquito/user_pito.png);
+    }
+
+    .sec_d1 {
+    width: 42%;
+    height: 38px;
+    margin-top: -6%;
+    margin-left: -1.5%;
+    position: absolute;
+    color: #316303;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    background: url("../images/pitoquito/banda_nota_verde.png");
+    background-size: 100% 96%;
+    padding-top: 2.7%;
+    padding-left: 3%;
+    }
+
+    .franja_detalle {
+    float: right;
+    width: 100%;
+    height: 50px;
+    background: #65b91b;
+    margin-top: 100px;
+    margin-bottom: 2px;
+    }
+
+    .nina_detalle {
+    float: left;
+    margin-left: -35px;
+    margin-top: -154px;
+    position: absolute;
+    }
+
+    .nina_detalle img {
+    width: 69%;
+    }
+
+    .tit_mas_detalle {
+    float: left;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -42px;
+    }
+
+    .tit_mas_detalle img {
+    width: 84%;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .slide-efe-web {
+    display: block;
+    }
+
+    .efe-movil {
+    display: none;
+    }
+
+    .seccion-movil {
+    display: none;
+    } 
+
+    .twit-face {
+    display: block;
+    }
+
+    .bloque-twit {
+    width: 49%;
+    float: left;
+    }
+
+    .col1-especial {
+    float: right;
+    width: 64.6%;
+    margin-top: 5px;
+    }
+
+    .tall-tablet {
+    height: 169px !important;
+    }
+
+.margin-insta {
+    margin-left: 2%;
+}
+
+    .col1-10-11 {
+    width: 58%;
+}
+
+.publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.B-hori-img {
+    width: 768px;
+    height: 78px;
+    background-image: url(../images/banner768x78_H2.jpg);
+    margin-left: 0%;
+}
+
+    .tall-prin {
+    height: 170px !important;
+    }
+
+    .border_cuerpo {
+    display: block;
+    border: 0px solid white;
+    background-color: #fff;
+    float: initial;
+    }
+
+    #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    /* Laterales ---------------------------------------------------------------------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+        /* background: #ccc; */
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+        /* background: #555; */
+    }
+
+    .ws_icon {
+    display: none;
+    }
+
+
+    .lateral_space {
+        margin-left: 2%;
+    }
+
+    .publicidad-avances {
+        display: block;
+    }
+
+    .bloque1 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+     .header_web {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .header_movil {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .logo_pito {
+        width: 39.6%;
+        height: auto;
+        float: left;
+    }
+
+    .logo_pito img {
+        width: 100%;
+    }
+
+    .pito_header {
+        width: 24.8%;
+        height: auto;
+        float: left;
+    }
+
+    .pito_header img {
+        width: 99.6%;
+    }
+
+    .volver_pano {
+        width: 35.6%;
+        height: auto;
+        float: left;
+        background: url("../images/pitoquito/header2.png");
+        background-size: 100% 99%;
+    }
+
+    .volver_logo {
+        width: auto;
+        margin-top: 13.5%;
+        margin-left: 3.54%;
+        padding-bottom: 14%;
+    }
+
+    .volver_logo img {
+        width: 90%;
+    }
+
+    .col1 {
+    width: 56%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .nota_prin {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #fdad00;
+    }
+
+    .nota_prin:hover {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #F7941D;
+    }
+
+    .nota_verde {
+    background: #70bd2a !important;
+    }
+
+    .nota_verde {
+    background: #70bd2a !important;
+    }
+
+    .nota_verde:hover {
+    background: #49880F !important
+    }
+
+    .foto_prin {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .redes {
+    width: 30%;
+    height: auto;
+    top: 4%;
+    right: 3%;
+    position: absolute;
+    }
+
+    .redes_icon {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    .sec_prin {
+    width: 45%;
+    height: 60px;
+    margin-top: -6%;
+    margin-left: -4%;
+    position: absolute;
+    color: #00656f;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4em;
+    background: url("../images/pitoquito/banda_nota_azul.png");
+    padding-top: 3%;
+    padding-left: 6%;
+    }
+
+    .sec_prin_2 {
+    width: 38%;
+    background: url("../images/pitoquito/banda_nota_fucsia.png") !important;
+    color: #6f244d !important;
+    }
+
+    .texto_prin {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    float: left;
+    }
+
+    .titular_prin {
+    width: 100%;
+    float: left;
+    padding: 15px 10px 15px;
+    color: #FFF;
+    font-size: 1.9em;
+    line-height: 1.3em;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+    .titular_prin a {
+    color: #fff;
+    text-decoration:none;
+    }
+
+    .titular_prin a:hover {
+    color: #fff;
+    text-decoration:none;
+    }
+
+    @font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne-Regular.ttf");
+    }
+
+    .col2 {
+    width: 42%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .tema_box {
+    float: right;
+    width: 300px;
+    height: 558px;
+    background: url("../images/pitoquito/fondo_temadelasemana.png");
+    background-repeat: no-repeat; 
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px; 
+    }
+
+    .foto_tema {
+    margin-top: 27%;
+    margin-left: 20%;
+    float: left;
+    } 
+
+    .foto_tema img {
+    width: 185px;
+    height: 185px;
+    border: 4px solid #3765a3;
+    }
+
+    .titular_tema {
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 10px 10px 0px;
+    color: #00b4c5;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+    .titular_tema a {
+    color: #00b4c5;
+    text-decoration: none;
+    }
+
+    .titular_tema a:hover {
+    color: #FDAD00;
+    text-decoration: none;
+    }
+
+    .texto_tema {
+    width: 85%;
+    float: left;
+    margin-left: 8%;
+    padding: 10px 5px 15px;
+    color: #000;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .vermas_tema {
+    float: left;
+    margin-top: 0%;
+    margin-left: 22%;
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    }
+
+    .nota-cuadro_caja {
+    width: 32%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .nota-cuadro_caja-10-11 {
+    width: 48%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    /* Nota 1 ----------------------------------*/
+    .nota_1 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #ce3c8c;
+    }
+
+    .nota_1:hover {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #71AF39;
+    }
+
+    .nota_color2 {
+    background: #03b5d9;
+    }
+
+    .nota_color2:hover {
+    background: #F79425;
+    }
+
+    .foto_1 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    }
+
+    .redes_1 {
+    width: 50%;
+    height: auto;
+    bottom: 1%;
+    right: 0.5%;
+    position: absolute;
+    }
+
+    .redes_icon_1 {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon_1 img {
+    width: 90%;
+    height: auto;
+    }
+
+    .sec_1 {
+    width: 50%;
+    height: 38px;
+    margin-top: -6%;
+    margin-left: -1.5%;
+    position: absolute;
+    color: #316303;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+    background: url("../images/pitoquito/banda_nota_verde_2.png");
+    padding-top: 3.3%;
+    padding-left: 4%;
+    }
+
+    .sec_1_inst {
+    width: 48% !important;
+    }
+
+    .texto_1 {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    float: left;
+    }
+
+    .titular_1 {
+    width: 100%;
+    float: left;
+    padding: 22px 10px 15px;
+    color: #FFF;
+    font-size: 1.2em;
+    line-height: 22px;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+    .titular_1 a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .titular_1 a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    @font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne-Regular.ttf");
+    }
+
+    /* Fin Nota 1 ----------------------------------*/
+
+    .efemerides_bg {
+    float: left;
+    width: 100%;
+    height: 359px;
+    margin-top: 140px;
+    background-image: url("../images/pitoquito/bg_efemeride.png");
+    background-size: none;
+    }
+
+    .nino_efe {
+    display: block;
+    float: left;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 30px;
+    }
+
+    .tit_efe {
+    float: left;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 85px;
+    }
+
+    .tit_efe img {
+    width: 85%;
+    }
+
+    .catire_efe {
+    float: left;
+    position: absolute;
+    margin-left: -18px;
+    margin-top: 25px;
+    }
+
+    /* Efemerides ----------------------------------*/
+    .carrusel_ancho {
+    position: relative !important;
+    width: 720px !important;
+    display: block !important;
+    }
+
+    .space_left {
+        margin-left: 2%;
+    }
+
+    .caja_colum {
+    width: 90%;
+    height: 300px;
+    margin-left: 50px;
+    text-align: center; 
+    float: left;
+    }
+
+    .nota-colum-3 {
+    float: left;
+    width: 30%;
+    }
+
+    .nota-efeme {
+    width: 100%;
+    }
+
+    .foto_efeme {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+    .foto_efeme img {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3765a3; 
+    }
+
+    .nombre_efeme {
+    display: inline;
+    color: #3765a3;
+    margin-top: 10px;
+    font-family: "FredokaOne";
+    font-size: 1.7em;
+    }
+
+    .nombre_efeme a {
+    color: #3765a3;
+    }
+
+    .nombre_efeme a:hover {
+    color: #3765a3;
+    text-decoration: none;
+    }
+
+    .titular_efeme {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 5px 5px 15px;
+    color: #000;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "FredokaOne";
+    }
+
+    .titular_efeme a {
+    color: #000;
+    }
+
+    .titular_efeme a:hover {
+    color: #3765a3;
+    text-decoration: none;
+    }
+
+    /* Fin Efemerides ----------------------------------*/
+
+
+    /* Instagram ----------------------------------*/
+    .nota-cuadro_doble {
+    width: 100%;
+    float: left;
+    }
+
+    .nota-cuadro_2 {
+    width: 49%;
+    float: right;
+    margin-top: 10px;
+    }
+
+    .col1_inst {
+    width: 68%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col2_inst {
+    width: 30%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .header_insta {
+    width: 100%;
+    float: left;
+    }
+
+    .header_insta img {
+    width: 100%;
+    }
+
+    .wi_pito_web {
+    display: none;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .wi_pito_tablet {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+    }
+
+
+    /* Fotoquito y cumpleañero ----------------------------------*/
+    
+    .col1_fotoquito {
+    float: left;
+    width: 33.39%;
+    margin-top: 5px;
+    }
+
+    .col2_fotoquito {
+    width: 64.6%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .fotoquito {
+    width: 100%;
+    float: left;
+    }
+
+    .fotoquito img {
+    width: 100%;
+    }
+
+    .cumple {
+    width: 100%;
+    float: left;
+    margin-top: 46px;
+    }
+
+    .cumple img {
+    width: 100%;
+    }
+
+    .top_doble {
+    margin-top: 5px;
+    }
+
+    .top_bloque {
+    margin-top: 20px;
+    }
+
+    .linea_publi {
+    width: 100%;
+    height: 20px;
+    background: url("../images/pitoquito/linea_publi.jpg");
+    }
+
+    /* Recetas ----------------------------------*/
+    .recetas_bg {
+    float: left;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    background-image: url("../images/pitoquito/bg_recetas.png");
+    background-size: none;
+    }
+
+    .nombre_receta {
+    display: inline;
+    color: #005212;
+    margin-top: 10px;
+    font-family: "FredokaOne";
+    font-size: 1.5em;
+    line-height: 25px;
+    }
+
+    .nombre_receta a {
+    color: #005212;
+    }
+
+    .nombre_receta a:hover {
+    color: #005212;
+    text-decoration: none;
+    }
+
+    .cocinera {
+    float: left;
+    margin-left: -18px;
+    margin-top: -149px;
+    }
+
+    .franja_receta {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #ffe139;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    }
+
+    .tit_recetas {
+    float: left;
+    position: absolute;
+    margin-left: 31%;
+    margin-top: -55px;
+    }
+
+    /* Imprime y colorea----------------------------------*/
+    .colorea {
+    display: block;
+    }
+
+    .imprime_bg {
+    display: none;
+    float: left;
+    width: 100%;
+    height: 230px;
+    margin-top: -20px;
+    background-image: url("../images/pitoquito/bg_imprimeycolorea.png");
+    background-size: none;
+    }
+    .nina_colorea {
+    float: left;
+    margin-left: 70px;
+    margin-top: -149px;
+    position: absolute;
+    }
+
+    .tit_imprime {
+    float: left;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -80px;
+    }
+
+    .franja_colorea {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #ce3c8c;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    }
+
+    .foto_colo img {
+    width: 110px;
+    height: 110px;
+    border: 4px solid #3765a3;
+    border-radius: 10%;
+    }
+
+    .nota-colo-3 {
+    float: left;
+    width: 17%;
+    }
+
+    .caja_color {
+    width: 90%;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+    float: left;
+    }
+
+    /* Ver más----------------------------------*/
+    .btn_mas {
+    margin: auto;
+    float: left;
+    margin-top: 46px;
+    margin-left: 33.5%;
+    }
+
+
+    /* Botonera----------------------------------*/
+    .botonera {
+    display: block;
+    float: left;
+    width: 100%;
+    background: #00b4c5;
+    height: 60px;
+    margin-top: 10px;
+    }
+
+    .botonera_movil {
+    display: none;
+    float: left;
+    width: 100%;
+    background: #00b4c5;
+    height: auto;
+    margin-top: 10px;   
+    }
+
+    .botonera_ancho {
+     width: 25%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 4%;
+    }
+
+    .botonera_ancho img {
+    width: 100%;
+    }
+
+    .botonera_imprime {
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .botonera_imprime img {
+    width: 140%;
+    }
+
+    .left_btn {
+    margin-left: 8.5%;
+    }
+
+    .linea_bottom {
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+    height: 10px;
+    background: url("../images/pitoquito/linea_top.png");
+    background-repeat: repeat-x;
+    }
+
+
+    /* footer ----------------------------------*/
+    .footer_web {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-image: url("../images/pitoquito/banda_footer.png");
+    background-size: 100%;
+    float: left;
+    margin-top: 70px;
+    }
+
+    .footer_movil {
+    display: none; 
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+    }
+
+    .pito_footer {
+    width: 30%;
+    margin-left: 27px;
+    float: left;
+    }
+
+    .pito_footer img {
+    width: 80%;
+    }
+
+    .nino_footer {
+    float: left;
+    margin-left: 33%;
+    margin-top: -47px;
+    }
+
+    .nino_footer img {
+    width: 80%;
+    }
+
+    .boton_subir {
+    float: left;
+    margin-left: 83%;
+    margin-top: -42px;
+    }
+
+    .boton_subir img {
+    width: 80%;
+    }
+
+    .imp_web {
+    display: none;
+    }
+
+    /* Detalle de noticia ----------------------------------------------------------------------------------*/
+    .header_web_detalle {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .sec_detalle {
+    width: 128px;
+    height: 31px;
+    margin-top: -0.1%;
+    margin-left: 0.5%;
+    position: absolute;
+    color: #966702;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background: url("../images/pitoquito/banda_nota_naranja.png");
+    background-size: 100%;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    }
+
+    .titular_detalle_p {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    margin-top: 35px;
+    color: #00b4c5;
+    font-size: 33px;
+    line-height: 41px;
+    font-family: "FredokaOne";
+    text-transform: uppercase;
+    }
+
+    .iconos_pito_detalle {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px !important;
+    float: none;
+    }
+
+    .cuerpo_pito {
+    width: 100%;
+    float: left;
+    color: #545454;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .cuerpo_pito img {
+    width: 100%;
+    }
+
+    .cant-like_pito {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_pito {
+    background: #e39602;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "GILGON";
+    }
+
+    .text_relacionadas {
+    font-size: 15px !important;
+    }
+
+    @font-face {
+    font-family: "GILGON";
+    src: url("../fonts/GILGON.ttf");
+    }
+
+    .tit-comment_pito {
+    background: #71af39;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "GILGON";
+    }
+
+    .cancelar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 24%;
+    }
+
+    .iniciar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 24%;
+    }
+
+    .registrar_pito {
+    float: left;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    margin-left: 24%;
+    }
+
+    .comentarios-login_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .btn-comment_pito {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .comentarios-box_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .comenta-box_pito {
+    border: 2px solid #71af39 !important;
+    }
+
+    .username_pito {
+    width: 100%;
+    font-size: 600 13px;
+    color: #71af39;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .userphoto_pito {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/pitoquito/user_pito.png);
+    }
+
+    .sec_d1 {
+    width: 42%;
+    height: 38px;
+    margin-top: -6%;
+    margin-left: -1.5%;
+    position: absolute;
+    color: #316303;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    background: url("../images/pitoquito/banda_nota_verde.png");
+    background-size: 100% 96%;
+    padding-top: 2.7%;
+    padding-left: 3%;
+    }
+
+    .franja_detalle {
+    float: right;
+    width: 94%;
+    height: 50px;
+    background: #65b91b;
+    margin-top: 100px;
+    margin-bottom: 2px;
+    }
+
+    .nina_detalle {
+    float: left;
+    margin-left: -10px;
+    margin-top: -149px;
+    position: absolute;
+    }
+
+    .nina_detalle img {
+    width: 100%;
+    }
+
+    .tit_mas_detalle {
+    float: left;
+    position: absolute;
+    margin-left: 26%;
+    margin-top: -55px;
+    }
+
+    .tit_mas_detalle img {
+        width: 100%;
+    }
+
+    .credi_detalle {
+    font-size: 15px;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .slide-efe-web {
+    display: block;
+    }
+
+    .efe-movil {
+    display: none;
+    }
+
+    .seccion-movil {
+    display: none;
+    } 
+
+    .twit-face {
+    display: block;
+    }
+
+    .bloque-twit {
+    width: 49%;
+    float: left;
+    }
+
+    .col1-especial {
+    float: right;
+    width: 64.6%;
+    margin-top: 5px;
+    }
+
+    .tall-tablet {
+    height: 125px !important;
+    }
+
+    .tall-prin {
+    height: 150px !important;
+    }
+
+    .col1-10-11 {
+    width: 66%;
+}
+
+    .nota-cuadro_caja-10-11 {
+    width: 49%;
+    float: left;
+    margin-top: 10px;
+    }
+
+.B-hori-img {
+    width: 1000px;
+    height: 100px;
+    background-image: url(../images/banner1000x100_H1.jpg);
+    margin-left: 0%;
+}
+
+.publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.margin-insta {
+    margin-left: 2%;
+}
+
+    .border_cuerpo {
+    display: block;
+    border: 1px solid white;
+    background-color: #fff;
+    }
+
+    #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    /* Laterales ----------------------------------------------------------------------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+    }
+
+    .ws_icon {
+    display: none;
+    }
+
+    .lateral_space {
+        margin-left: 2%;
+    }
+
+    .publicidad-avances {
+        display: block;
+    }
+
+    .header_web {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .logo_pito {
+        width: 39.6%;
+        height: auto;
+        float: left;
+    }
+
+    .logo_pito img {
+        width: 100%;
+    }
+
+    .pito_header {
+        width: 24.8%;
+        height: auto;
+        float: left;
+    }
+
+    .pito_header img {
+        width: 100%;
+    }
+
+    .volver_pano {
+        width: 35.6%;
+        height: auto;
+        float: left;
+        background: url("../images/pitoquito/header2.png");
+        background-size: 100%;
+    }
+
+    .volver_logo {
+        width: auto;
+        margin-top: 13.5%;
+        margin-left: 3.54%;
+        padding-bottom: 14%;
+    }
+
+    .volver_logo img {
+        width: 90%;
+    }
+
+    .bloque1 {
+        margin: 0 auto;
+        width: 960px;
+    }
+
+    .col1 {
+    width: 64.6%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    /* Nota principal ----------------------------------*/
+    .nota_prin {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #fdad00;
+    }
+
+    .nota_prin:hover {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #F7941D;
+    }
+
+    .nota_verde {
+    background: #70bd2a !important;
+    }
+
+    .nota_verde:hover {
+    background: #67A231 !important
+    }
+
+    .foto_prin {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .redes {
+    width: 30%;
+    height: auto;
+    top: 4%;
+    right: 3%;
+    position: absolute;
+    }
+
+    .redes_icon {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    .sec_prin {
+    width: 31%;
+    height: 60px;
+    margin-top: -6%;
+    margin-left: -3%;
+    position: absolute;
+    color: #00656f;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4em;
+    background: url("../images/pitoquito/banda_nota_azul.png");
+    padding-top: 2.5%;
+    padding-left: 6%;
+    }
+
+    .sec_prin_2 {
+    background: url("../images/pitoquito/banda_nota_fucsia.png") !important;
+    color: #6f244d !important;
+    }
+
+    .texto_prin {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    float: left;
+    }
+
+    .titular_prin {
+    width: 100%;
+    float: left;
+    padding: 15px 10px 15px;
+    color: #FFF;
+    font-size: 2.2em;
+    line-height: 40px;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+    .titular_prin a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .titular_prin a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    @font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne-Regular.ttf");
+    }
+
+
+    /* Fin Nota principal ----------------------------------*/
+
+    .col2 {
+    width: 33.399%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .tema_box {
+    float: right;
+    width: 300px;
+    height: 558px;
+    background: url("../images/pitoquito/fondo_temadelasemana.png");
+    background-repeat: no-repeat; 
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px; 
+    }
+
+    .foto_tema {
+    margin-top: 27%;
+    margin-left: 18%;
+    float: left;
+    } 
+
+    .foto_tema img {
+    width: 185px;
+    height: 185px;
+    border: 4px solid #3765a3;
+    }
+
+    .titular_tema {
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 15px 10px 0px;
+    color: #00b4c5;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+    .titular_tema a {
+    color: #00b4c5;
+    text-decoration: none;
+    }
+
+    .titular_tema a:hover {
+    color: #FDAD00;
+    text-decoration: none;
+    }
+
+    .texto_tema {
+    width: 85%;
+    float: left;
+    margin-left: 8%;
+    padding: 10px 5px 15px;
+    color: #000;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .vermas_tema {
+    float: left;
+    margin-top: 4%;
+    margin-left: 22%;
+    opacity: 1.0;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    }
+
+    .vermas_tema:hover {
+    float: left;
+    margin-top: 4%;
+    margin-left: 22%;
+    opacity: 0.7;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    }
+
+    .nota-cuadro_caja {
+    width: 32%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    /* Nota 1 ----------------------------------*/
+    .nota_1 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #ce3c8c;
+    }
+
+    .nota_1:hover {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
+    background: #71AF39;
+    }
+
+    .nota_color2 {
+        background: #03b5d9;
+    }
+
+    .nota_color2:hover {
+        background: #F79425;
+    }
+
+    .foto_1 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    }
+
+    .redes_1 {
+    width: 50%;
+    height: auto;
+    bottom: 1%;
+    right: 0.5%;
+    position: absolute;
+    }
+
+    .redes_icon_1 {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon_1 img {
+    width: 90%;
+    height: auto;
+    }
+
+    .sec_1 {
+    width: 50.3% !important;
+    height: 38px;
+    margin-top: -6%;
+    margin-left: -1.5%;
+    position: absolute;
+    color: #316303;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background: url("../images/pitoquito/banda_nota_verde.png");
+    padding-top: 2.5%;
+    padding-left: 6%;
+    }
+
+    .sec_1_naranja {
+    background: url("../images/pitoquito/banda_nota_naranja.png") !important;
+    color: #8c6002 !important;  
+    }
+
+    .texto_1 {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    float: left;
+    }
+
+
+    .titular_1 {
+    width: 100%;
+    float: left;
+    padding: 15px 10px 15px;
+    color: #FFF;
+    font-size: 1.4em;
+    line-height: 25px;
+    font-family: "FredokaOne";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+    .titular_1 a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .titular_1 a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    @font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne-Regular.ttf");
+    }
+
+    /* Fin Nota 1 ----------------------------------*/
+
+    
+    /* Efemerides ----------------------------------*/
+    .btn_carru {
+    opacity: 1.0;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    }
+
+    .btn_carru:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    }
+
+    .carrusel_ancho {
+    position: relative !important;
+    width: 960px !important;
+    display: block !important;
+    }
+
+    .caja_colum {
+    width: 90%;
+    height: 300px;
+    margin-left: 50px;
+    text-align: center; 
+    float: left;
+    }
+
+    .nota-colum-3 {
+    float: left;
+    width: 30%;
+    }
+
+    .nota-efeme {
+    width: 100%;
+    }
+
+    .foto_efeme {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+    .foto_efeme img {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3765a3; 
+    }
+
+    .nombre_efeme {
+    display: inline;
+    color: #3765a3;
+    margin-top: 10px;
+    font-family: "FredokaOne";
+    font-size: 1.7em;
+    }
+
+    .nombre_efeme a {
+    color: #3765a3;
+    }
+
+    .nombre_efeme a:hover {
+    color: #fff;
+    text-decoration: none !important;
+    }
+
+    .titular_efeme {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 5px 5px 15px;
+    color: #000;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "FredokaOne";
+    }
+
+    .titular_efeme a {
+    color: #000;
+    }
+
+    .titular_efeme a:hover {
+    color: #50A031;
+    text-decoration: none;
+    }
+
+    .tit_efe {
+    float: left;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 85px;
+    }
+
+    .tit_efe img {
+    width: 100%;
+    }
+
+    .nino_efe {
+    display: block;
+    float: left;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 30px;
+    }
+    /* Fin Efemerides ----------------------------------*/
+
+
+    /* Instagram ----------------------------------*/
+    .nota-cuadro_doble {
+    width: 100%;
+    float: left;
+    margin-top: -390px;
+    }
+
+    .nota-cuadro_2 {
+    width: 49%;
+    float: right;
+    margin-top: 10px;
+    }
+
+    .col1_inst {
+    width: 68%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col2_inst {
+    width: 30%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .header_insta {
+    width: 100%;
+    float: left;
+    margin-top: 18px;
+    }
+
+    .wi_pito_web {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .wi_pito_tablet {
+    display: none;
+    width: 100%;
+    float: left;
+    }
+
+    /* Fotoquito y cumpleañero ----------------------------------*/
+    
+    .col1_fotoquito {
+    float: left;
+    width: 33.39%;
+    margin-top: 5px;
+    }
+
+    .col2_fotoquito {
+    width: 64.6%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .fotoquito {
+        width: 100%;
+        float: left;
+    }
+
+    .cumple {
+        width: 100%;
+        float: left;
+        margin-top: 15px;
+    }
+
+    .top_doble {
+        margin-top: 10px;
+    }
+
+    .top_bloque {
+        margin-top: 20px;
+    }
+
+    .linea_publi {
+        width: 100%;
+        height: 20px;
+        background: url("../images/pitoquito/linea_publi.jpg");
+    }
+
+    /* Recetas ----------------------------------*/
+    .recetas_bg {
+    float: left;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    background-image: url("../images/pitoquito/bg_recetas.png");
+    background-size: none;
+    }
+
+    .nombre_receta {
+    display: inline;
+    color: #005212;
+    margin-top: 10px;
+    font-family: "FredokaOne";
+    font-size: 1.7em;
+    line-height: 25px;
+    }
+
+    .nombre_receta a {
+    color: #005212;
+    text-decoration: none;
+    }
+
+    .nombre_receta a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+    }
+
+    .cocinera {
+    float: left;
+    margin-left: -18px;
+    margin-top: -149px;
+    }
+
+    .franja_receta {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #ffe139;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    }
+
+    .tit_recetas {
+    float: left;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -55px;
+    }
+
+
+    .btn_mas {
+        margin: auto;
+        float: left;
+        margin-top: 46px;
+        margin-left: 355px;
+    }
+
+
+    /* Imprime y colorea----------------------------------*/
+    .colorea {
+    display: block;
+    }
+
+    .imprime_bg {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 230px;
+    margin-top: -20px;
+    background-image: url("../images/pitoquito/bg_imprimeycolorea.png");
+    background-size: none;
+    }
+    .nina_colorea {
+    float: left;
+    margin-left: 70px;
+    margin-top: -149px;
+    position: absolute;
+    }
+
+    .tit_imprime {
+    float: left;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -80px;
+    }
+
+    .franja_colorea {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #ce3c8c;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    }
+
+    .foto_colo img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #000;
+    border-radius: 10%;
+    }
+
+    .nota-colo-3 {
+    float: left;
+    width: 17%;
+    }
+
+    .caja_color {
+    width: 90%;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+    float: left;
+    }
+
+
+    /* Botonera----------------------------------*/
+    .botonera {
+    display: block;
+    float: left;
+    width: 100%;
+    background: #00b4c5;
+    height: 70px;
+    margin-top: 10px;
+    }
+
+    .botonera_movil {
+    display: none;
+    float: left;
+    width: 100%;
+    background: #00b4c5;
+    height: auto;
+    margin-top: 10px;   
+    }
+
+    .botonera_ancho {
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0%;
+    }
+
+    .botonera_ancho img {
+    width: initial;
+    }
+
+    .botonera_imprime {
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    }
+
+    .botonera_imprime img {
+    width: 130%;
+    }
+
+    .left_btn {
+    margin-left: 10px;
+    }
+
+    .linea_bottom {
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+    height: 10px;
+    background: url("../images/pitoquito/linea_top.png");
+    background-repeat: repeat-x;
+    }
+
+
+    /* footer ----------------------------------*/
+    .footer_web {
+    display: block;
+    width: 100%;
+    height: 79px;
+    background-image: url("../images/pitoquito/banda_footer.png");
+    background-size: 100%;
+    float: left;
+    margin-top: 100px;
+    }
+
+    .footer_movil {
+    display: none; 
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+    }
+
+    .pito_footer {
+    width: 30%;
+    margin-left: 40px;
+    float: left;
+    }
+
+    .nino_footer {
+    float: left;
+    margin-left: 33%;
+    margin-top: -54px;
+    }
+
+    .nino_footer img {
+    width: initial;
+    }
+
+    .boton_subir {
+    float: left;
+    margin-left: 83%;
+    margin-top: -54px;
+    }
+
+    .boton_subir img {
+    width: initial;
+    }
+
+    .imp_web {
+    display: block;
+    }
+
+/* Detalle de noticia ----------------------------------------------------------------------------------*/
+    .header_web_detalle {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    }
+
+    .sec_detalle {
+    width: 157px;
+    height: 38px;
+    margin-top: -0.1%;
+    margin-left: 0.5%;
+    position: absolute;
+    color: #966702;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background: url("../images/pitoquito/banda_nota_naranja.png");
+    padding-top: 0.5%;
+    padding-left: 2%;
+    }
+
+    .titular_detalle_p {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    margin-top: 35px;
+    color: #00b4c5;
+    font-size: 33px;
+    line-height: 41px;
+    font-family: "FredokaOne";
+    text-transform: uppercase;
+    }
+
+    .iconos_pito_detalle {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px !important;
+    float: none;
+    }
+
+    .cuerpo_pito {
+    float: left;
+    color: #545454;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .cant-like_pito {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_pito {
+    background: #e39602;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "GILGON";
+    }
+
+    @font-face {
+    font-family: "GILGON";
+    src: url("../fonts/GILGON.ttf");
+    }
+
+    .tit-comment_pito {
+    background: #71af39;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "GILGON";
+    }
+
+    .cancelar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    }
+
+    .iniciar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 74px;
+    }
+
+    .registrar_pito {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    }
+
+    .comentarios-login_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .btn-comment_pito {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .comentarios-box_pito {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border:2px dotted #71af39;
+    }
+
+    .comenta-box_pito {
+    border: 2px solid #71af39 !important;
+    }
+
+    .username_pito {
+    width: 100%;
+    font-size: 600 13px;
+    color: #71af39;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .userphoto_pito {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/pitoquito/user_pito.png);
+    }
+
+    .sec_d1 {
+    width: 50%;
+    height: 38px;
+    margin-top: -6%;
+    margin-left: -1.5%;
+    position: absolute;
+    color: #316303;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background: url("../images/pitoquito/banda_nota_verde.png");
+    padding-top: 2.5%;
+    padding-left: 6%;
+    }
+
+    .franja_detalle {
+    float: right;
+    width: 94%;
+    height: 50px;
+    background: #65b91b;
+    margin-top: 100px;
+    margin-bottom: 2px;
+    }
+
+    .nina_detalle {
+    float: left;
+    margin-left: -10px;
+    margin-top: -149px;
+    position: absolute;
+    }
+
+.nina_detalle img {
+    width: 100%;
+}
+
+    .tit_mas_detalle {
+    float: left;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: -55px;
+    }
+
+.tit_mas_detalle img {
+    width: 100%;
+}
+
+.credi_detalle {
+    font-size: 16px;
+    }
+
+
+}
+
+@media screen and (min-width: 1340px) {
+    .carrusel_ancho {
+    position: relative !important;
+    width: 1000px !important;
+    display: block !important;
+    margin-left: 70px;
+    }
+        /* Laterales ----------------------------------------------------------------------------------*/
+        .laterales {
+        display: block;
+        width:1330px; 
+        margin: auto;
+        }
+
+    .lateral1 {
+        display: block;
+        width:160px;
+        height:600px;
+        float: left;
+        /* background: #ccc; */
+    }
+
+    .lateral2 {
+        display: block;
+        width:160px;
+        height:600px;
+        float: right;
+        /* background: #555; */
+    }
+
+}

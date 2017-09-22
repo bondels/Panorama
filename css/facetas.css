@@ -1,0 +1,6820 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: helvetica;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+.caja { 
+    margin: 0 auto;
+    max-width: 1000px;
+    height: auto;
+}
+
+.caja_colum {
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    margin-left: 8.5%;
+}
+
+.publicidad {
+    margin-bottom: 16px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.b_publi {
+    font-family: helvetica;
+    width: 93.5%;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    color: #B0B0B0;
+    padding: 0px 5px 0px 0px;
+    font-size: 10px;
+    text-align: right;
+    margin: auto;
+    height: 16px;
+}
+
+.banner-horizontal {
+    width: 100%;
+    height:auto;
+    float: left;
+}
+
+.banner-3 {
+        width: 100%;
+    }
+
+    .banner-3 img {
+        width: 100%;
+    }
+
+.header-w {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.banner-horizontal img {
+    width: 100%;
+}
+
+.banner img {
+    width: 95%;
+}
+
+.banner-cuadro {
+    width: 300px;
+    margin-left: 8px;
+    height: 250px;
+    text-align: -webkit-center;
+    }
+
+@media screen and (max-width: 320px) {
+
+    .relacionadas-face {
+    margin-top: -970px !important;
+    }
+
+    .top-publi {
+    margin-top: 667px !important;
+    }
+
+    .B-hori-img {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../images/banner_300x60_4.jpg);
+    background-repeat: no-repeat;
+    margin-left: 2% !important;
+    }
+
+    .publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    }
+
+    /* Laterales -----------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+    }
+
+    .header_web {
+    width: 100%;
+    height: 100px !important;
+    margin-top: 5px;
+    float: left;
+    background-image: url("../images/bg_facetas_movil.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    }
+
+    .logo_web {
+    margin-left: 16px;
+    width: 44%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    }
+
+    .logo_web img {
+        width: 100%;
+    } 
+
+    .rd_pano {
+    width: 45%;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+    }
+
+    .siguenos {
+    width: 60%;
+    height: auto;
+    float: left;
+    }
+
+    .siguenos img {
+        width: 90% !important;
+    }
+
+
+    .tw_web {
+    float: left;
+    width: 18% !important;
+    }
+
+    .tw_web img {
+        width: 100%;
+    }
+
+    .int_web {
+    float: left;
+    width: 18% !important;
+    margin-left: 0px;
+    }
+
+    .int_web img {
+        width: 100%;
+    }
+
+    .pano_volver {
+    width: 90%;
+    float: right;
+    margin-top: 15px;
+    }
+
+    .pano_volver img {
+        width: 100%;
+    }
+
+    .bloque1 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .col1 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col1-2 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col2 {
+    width: 100%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .col_right {
+    width: 32.299%;
+    border: 1px solid red;
+    float: left;
+    margin-top: 40px;   
+    }
+
+    .col1_right {
+    width: 100%;
+    float: left;   
+    }
+
+    .col2_inst {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    }
+
+    .col2-2 {
+    width: 33.399%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .nota_n1 {
+    width: 100%;
+    margin: auto;
+    background: #454647;
+    }
+
+    .nota_1 {
+    float: left;
+    }
+
+    .foto_n1 {
+    width: 100%;
+    position: relative;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .n1_seccion {
+    float: left;
+    width: initial;
+    padding: 0px 10px;
+    background: #f8e300;
+    position: relative;
+    color: #000;
+    bottom: 0em;
+    left: 0em;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 0.9em;
+    font-family: arial;
+    }
+
+    .texto {
+    position: relative;
+    width: 88%;
+    margin-top: -48px;
+    height: 150px;
+    float: left;
+    }
+
+    .titular {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #FFF;
+    font-size: 22px !important;
+    line-height: 25px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular a {
+    color: #fff;
+    }
+
+    .titular a:hover {
+    color: #000;
+    text-decoration: none;
+    }
+
+    .titular_2 {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #000;
+    font-size: 22px !important;
+    line-height: 25px !important;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #f8e300;
+    }
+
+    .titular_2 a {
+    color: #000;
+    }
+
+    .titular_2:hover {
+    color: #35b7c3;
+    text-decoration: none;
+    }
+
+    .redes {
+    width: 40%;
+    height: auto;
+    top: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    .redes_icon {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    .redes_icon_ws {
+    display: block;
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon_ws img {
+    width: 90%;
+    height: auto;
+    }
+
+    #tit-lomasvisto {
+    background: #e39602;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 0px;
+    }
+
+    #tit-lomasvisto img {
+    text-align: right;
+    margin-right: 30px;
+    width: 48%;
+    float: right;
+    }
+
+    .texto_lomas {
+    width: 55%;
+    margin-top: 10px;
+    height: 100%;
+    float: left;
+    } 
+
+    .nota_lomas {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    }
+
+    .creditos_lomas {
+    text-align: right;
+    font-size: 11px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .creditos_lomas span {
+       font-weight: bold; 
+    }
+
+    .titular_lomas {
+    font-size: 25px;
+    line-height: 27px;
+    color: #8c8b8b;
+    text-align: right;
+    margin-right: 10px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .titular_lomas a {
+    color: #8c8b8b;   
+    }
+
+    .titular_lomas a:hover {
+    color: #e39602;
+    text-decoration: none;   
+    }
+
+    #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    #myImg:hover {opacity: 0.7;}
+
+    #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    #myImg2:hover {opacity: 0.7;}
+
+
+    .foto_lomas {
+    width: 45%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    } 
+
+    .foto_lomas img {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .linea_lomas {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left:10%;
+    border: 1px solid #eaeaea;
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    }
+
+    .nota-cuadro_caja {
+    width: 90%;
+    margin-left: 5% !important;
+    margin-top: 40px;
+    float: left;
+    }
+
+    .nota-cuadro_caja_publicidad {
+    display: block;
+    width: 90%;
+    margin-left: 5% !important;
+    float: left;
+    }
+
+    .nota-cuadro_caja_2 {
+    width: 90%;
+    float: left;
+    margin-left: 5% !important;
+    margin-top: 30px;
+    }
+
+    .nota-cuadro_doble {
+    width: 100%;
+    float: left;
+    }
+
+    .nota_cuadro {
+    width: 100%; 
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .seccion-cuadro {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: -20px;
+    position: relative;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .seccion-cuadro_2 {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: -20px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .redes_cuadro {
+    width: 45%;
+    height: auto;
+    bottom: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    .texto_cuadro {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    float: left;
+    }
+
+    .titular_cuadro {
+    width: 100%;
+    height: initial;
+    float: left;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 28px !important;
+    line-height: 33px !important;
+    font-weight: bold;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #35b7c3;
+    }
+
+    .titular_verde {
+    width: 100%;
+    height: initial;
+    float: left;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 28px !important;
+    line-height: 33px !important;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular_cuadro a {
+    color: #fff;
+    }
+
+    .titular_cuadro:hover {
+    color: #000;
+    background: #f8e300;
+    text-decoration: none;
+    }
+
+    .titular_verde a {
+    color: #000;
+    }
+
+    .titular_verde:hover {
+        color: #fff;
+        background: #35b7c3;
+        text-decoration: none;
+    }
+
+    .horoscopo_tit {
+    display: none;
+    float: left;
+    margin-left: 40%;
+    margin-top: -30px;
+    position: relative;
+    }
+
+    #linea_horos {
+    display: none;
+    width: 98%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border: 1px solid #d6d6d6;
+    }
+
+    #horoscopo_bg {
+    float: left;
+    width: 100%;
+    height: 400px !important;
+    margin-top: 25px;
+    background-image: url("../images/bg_horos_movil.jpg");
+    background-position: 50% 50%;
+    }
+
+    .border_horos {
+    display: block;
+    width: 92.5%;
+    margin-left: 3.5% !important;
+    margin-top: 2.5%;
+    height: 383px !important;
+    position: absolute;
+    border: 1px solid #B3B2B2;
+    }
+
+    .sib_principal {
+    float: left;
+    position: absolute;
+    margin-left: 6% !important;
+
+    }
+
+    .nob_fecha {
+    float: left;
+    }
+
+    .nombre_horoscopo {
+    width: 60%;
+    float: left;
+    margin-left: 27%;
+    margin-top: 10px;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 26px !important;
+    line-height: 25px !important;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+    .fecha_mes {
+    float: left;
+    margin-left: 30%;
+    font-weight: bold;
+    font-size: 11px;
+    }
+
+    .texto_horoscopo {
+    float: left;
+    margin-left: 5%;
+    width: 86%;
+    color: #000;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    padding-left: 0px;
+    }
+
+    .horoscopo_12 {
+    display: none;
+    width: 720px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+
+    .vertodos {
+    width: 166px;
+    float: left;
+    margin-left: 28%;
+    margin-bottom: 20px;
+    }
+
+    .header_tw {
+    width: 90%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+    }
+
+    .header_tw img {
+    width: 100%;
+    }
+
+    .widget_tw {
+    width: 90%;
+    margin-left: 5%;
+    }
+
+    .insta_web {
+        display: block;
+        width: 90%;
+        margin-left: 2% !important;
+    }
+
+    .insta_tablet {
+        display: none;
+    }
+
+    #columnista_bg {
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+    background-image: url("../images/bg_column.png");
+    }
+
+    .columnistas_tit {
+    float: left;
+    margin-left: 1.2%;
+    margin-top: -32px;
+    position: relative;
+    }
+
+    .columnistas_tit img {
+    width: 80%;
+    }
+
+    .carrusel_ancho {
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
+    }
+
+    .nota-column {
+    width: 100%;
+    }
+
+    .nota-colum-3 {
+        float: left;
+        width: 27%;
+        margin-right: 2% !important;
+    }
+
+    .foto_column {
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+
+    .foto_column img {
+    width: 180px;
+    height: 180px;   
+    }
+
+    .nombre_columnista {
+    display: inline;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .titular_column {
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    float: left;
+    padding: 5px 5px 15px;
+    color: #000;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "Roboto Slab";
+    }
+
+    .titular_column a {
+    color: #000;
+    }
+
+    .titular_column a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .lineacolum {
+        float: left;
+        margin: 0 15px 0 15px;
+    }
+
+    .caja_colum {
+        width: 900px;
+        margin-left: 18px !important;
+        text-align: center; 
+        float: left;
+    }
+
+    .linea_vermas {
+    width: 98%;
+    margin-top: 57px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border-bottom: 1px solid #d6d6d6; 
+    }
+
+    .linea_columnista {
+    margin-top: 80px; 
+    position: relative; 
+    width: 70% !important; 
+    float: left!important; 
+    margin-left: 6.5%;
+    border: 1px solid #d6d6d6;"
+    }
+
+    .vermas_facetas {
+    float: left;
+    margin-left: 26.5%;
+    position: absolute;
+    }
+
+    .vermas_facetas_text {
+    float: left;
+    margin-left: 39%;
+    position: absolute;
+    }
+
+    .loader_facetas {
+    width: 111px;
+    height: 111px;
+    margin-left: 36%;
+    background-image: url(../images/loader_facetas.png);
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    }
+
+    .loader_facetas:hover {
+    width: 111px;
+    height: 111px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    }
+
+    .tres_btn_box {
+    float: left;
+    width: 100%;
+    background: #f39400;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 0px;
+    }
+
+    .tres_btn {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    }
+
+    .tres_btn_1 {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    }
+
+    .tres_btn_linea {
+    width: 80%;
+    height: 5px;
+    text-align: center;
+    float: left;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-left: 10%;
+    background-image: url("../images/linea_horiz_orange.png");  
+    }
+
+    .footer_facetas {
+    width: 100%;
+    height: 210px;
+    float: left;
+    background-image: url(../images/bg_footer_facetas.png);
+    background-size: 100% 100%;
+    }
+
+    .facetas_btn {
+    float: left;
+    width: 300px;
+    height: 195px;
+    margin-left: 6% !important;
+    margin-top: 15px;
+    }
+
+    .face_logo_foot {
+    float: left;
+    width: 255px;
+    height: 105px;
+    background-image: url(../images/facetas_logo_footer.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 0px !important;
+    }
+
+    .face_logo_foot:hover {
+    float: left;
+    width: 255px;
+    height: 105px;
+    background-image: url(../images/facetas_logo_footer_hover.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+
+    .face_logo_foot_redes {
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-top: -15px !important;
+    margin-left: 85px !important;
+    }
+
+    .face_logo_foot_redes img {
+    width: 40%;
+    }
+
+    .face_logo_foot img {
+        width: 68%;
+    }
+
+    .face_pano_foot {
+    float: left;
+    width: 216px;
+    height: 20px;
+    text-align: center;
+    margin-left: 30px;
+    }
+
+    .face_pano_foot img {
+        width: 85%;
+    }
+
+    .subir_facetas {
+        float: right;
+        margin-top: -60px;
+        margin-right: 2%;
+    }
+
+    .subir_facetas img {
+        width: 80%;
+    }
+
+    .publicidad-avances {
+        display: none;
+    }
+
+    .publicidad {
+        display: block;
+        margin-top: 20px;
+    }
+
+     /* Detalle de noticia -------------------------------------------------------*/
+    .top_seccion_detalle {
+    display: none;
+    margin-top: 0px;
+    }
+
+    .valoracion_facetas {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 100%;
+    float: left;
+    background: #fff;
+    }
+
+    .titular_detalle_f {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #727272;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: "Roboto Slab";
+    }
+
+    .fecha_detalle_facetas {
+    float: left;
+    color: #8f8f8f;
+    margin-top: 18px;
+    font-size: 13px !important;
+    margin-left: 5px !important;
+    }
+
+    .iconos_face_detalle {
+    width: 65%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px !important;
+    float: none;
+    }
+
+    .tit_foto_facetas {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .cuerpo_facetas {
+    width: 100%;
+    float: left;
+    color: #b8b4b4;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .cuerpo_facetas img {
+        width: 100%;
+    }
+
+    .like_1_facetas {
+    width: 20%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 4%;
+    }
+
+    .like_1_facetas img {
+        width: 65%;
+    }
+
+    .like_2_facetas {
+    width: 20%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 2%;
+    }
+
+    .like_2_facetas img {
+        width: 65%;
+    }
+
+    .text-like_facetas {
+    width: 50%;
+    margin-top: 35px;
+    float: left;
+    }
+
+    .text-like_facetas img {
+    width: 100%;
+    }
+
+    .sib_principal_detalle {
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    }
+
+    .sib_principal_detalle img {
+        width: 80%;
+    }
+
+    .nob_fecha_detalle {
+    float: right;
+    }
+
+    .nombre_horoscopo_detalle {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+.fecha_mes_detalle {
+    float: right;
+    margin-right: 12px;
+    font-weight: bold;
+    margin-top: -10px;
+    font-size: 11px;
+    }
+
+    .vertodos_detalle {
+    width: 166px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 35px;
+    }
+
+    .cant-like_facetas {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_facetas {
+    background: #e39602;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    }
+
+    .nota_rela_facetas {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    }
+
+    .texto_rela_facetas {
+    width: 55%;
+    margin-top: 0px;
+    margin-right: -6px;
+    height: 100%;
+    float: right;
+    }
+
+    .creditos_rela_facetas {
+    text-align: left;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 5px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .titular_rela_facetas {
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: #676767;
+    text-align: left;
+    margin-right: 0px;
+    padding-left: 5px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .foto_rela_facetas {
+    margin-left: -3px;
+    }
+
+    .titular_rela_facetas a {
+        color: #676767;
+        text-decoration: none;
+    }
+
+    .titular_rela_facetas a:hover {
+        color: #676767;
+        text-decoration: none;
+    }
+
+    .foto_rela_facetas img {
+    width: 120px !important;
+    height: 120px !important;
+    }
+
+    .tit-comment_facetas {
+    background: #26b8c3;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .tit-mas_facetas {
+    background: #ff165d;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .text-coment_facetas {
+    width: 90% !important;
+    margin-left: 5%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .text-coment-2_facetas {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .btn-comment_facetas {
+    float: left;
+    color: #26b8c3;
+    font-family: "Roboto Slab";
+    font-weight: bolder;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px !important;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .btn-comment_facetas a:hover {
+     color: #26b8c3 !important;
+     text-decoration: none;   
+    }
+
+    a {
+    text-decoration: none !important;
+    }
+
+    .comentarios-login_facetas {
+    width: 95% !important;
+    margin-left: 2.5% !important;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .border_btn {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    }
+
+    .border_btn_2 {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    }
+
+    .iniciar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 7% !important;
+    }
+
+    .registrar_facetas {
+    float: left;
+    margin-top: 39px;
+    margin-bottom: 30px;
+    margin-left: 9% !important;
+    }
+
+    .cancelar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 4% !important;
+    }
+
+    .comentarios-box_facetas {
+    width: 95% !important;
+    margin-left: 2.5% !important;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .comenta-box_facetas {
+    border: 2px solid #26b8c3 !important;
+    }
+
+    .username_facetas {
+    width: 100%;
+    font-size: 600 13px;
+    color: #26b8c3;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .usernumber_facetas {
+    display: inline-block;
+    width: 29px;
+    height: 24px;
+    font-size: 13px;
+    color: #26b8c3;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+    margin-right: 3px;
+    vertical-align: top;
+    line-height: 24px;
+    border: 1px solid #26b8c3;
+    }
+
+    .report_facetas {
+    font: 13px "Arial";
+    color: #26b8c3 !important;
+    margin-left: 8px;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    }
+
+    .report_facetas a {
+    color: #26b8c3 !important;  
+    }
+
+    .responder_facetas {
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    }
+
+    .vermas_facetas {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 115px !important;
+    }  
+
+    .vermas_fa_detalle {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 325px;
+    margin-top: -65px;
+    }  
+
+    .userphoto_facetas {
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/user_facetas.jpg);
+    }
+
+    .publicidad-3 {
+    display: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .B-hori-img {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../images/banner_300x60_4.jpg);
+    background-repeat: no-repeat;
+    margin-left: 7.5%;
+    }
+
+    .publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    }
+
+    .relacionadas-face {
+    margin-top: -1082px;
+    }
+
+    .top-publi {
+    margin-top: 775px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .B-hori-img {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../images/banner_300x60_4.jpg);
+    background-repeat: no-repeat;
+    margin-left: 8.5%;
+    }
+
+    .publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    }
+
+    .relacionadas-face {
+    margin-top: -1082px;
+    }
+
+    .top-publi {
+    margin-top: 775px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .B-hori-img {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../images/banner_300x60_4.jpg);
+    background-repeat: no-repeat;
+    margin-left: 14%;
+    }
+
+    .publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 599px) {
+
+    .carrusel_movil {
+    display: block;
+    }
+
+    .carrusel_web {
+    display: none;
+    }
+
+    .reduce-top {
+    margin-top: 0px !important;
+    }
+
+    .top-insta-web {
+    display: none;
+    margin-top: 33px;
+    }
+
+    .bloque-twit {
+    width: 49%; 
+    float: left;        
+    }
+
+    .bloque-nota {
+    width: 100%; 
+    float: right; 
+    margin-top: 10px;
+    }
+
+    .lomasface {
+        display: none;
+    }
+
+    .insta-face {
+        display: none;
+    }
+
+    .twit-face {
+        display: none;
+    }
+
+    .seccion-movil-face {
+        display: block;
+    }
+
+    /* Laterales -----------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+    }
+
+    .header_web {
+    width: 100%;
+    height: 110px;
+    margin-top: 5px;
+    float: left;
+    background-image: url("../images/bg_facetas_movil.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    }
+
+    .logo_web {
+    margin-left: 16px;
+    width: 44%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    }
+
+    .logo_web img {
+        width: 100%;
+    } 
+
+    .rd_pano {
+    width: 45%;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+    }
+
+    .siguenos {
+    width: 60%;
+    height: auto;
+    float: left;
+    }
+
+    .siguenos img {
+        width: 100%;
+    }
+
+
+    .tw_web {
+    float: left;
+    width: 20%;
+    }
+
+    .tw_web img {
+        width: 100%;
+    }
+
+    .int_web {
+    float: left;
+    width: 20%;
+    margin-left: 0px;
+    }
+
+    .int_web img {
+        width: 100%;
+    }
+
+    .pano_volver {
+    width: 90%;
+    float: right;
+    margin-top: 15px;
+    }
+
+    .pano_volver img {
+        width: 100%;
+    }
+
+    .bloque1 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .col1 {
+    width: 100%;
+    float: left;
+    }
+
+    .col1-2 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col2 {
+    width: 100%;
+    float: right;
+    margin-top: 5px;
+    background: #fff;
+    }
+
+    .col_right {
+    width: 32.299%;
+    border: 1px solid red;
+    float: left;
+    margin-top: 40px;   
+    }
+
+    .col1_right {
+    width: 100%;
+    float: left;   
+    }
+
+    .col2_inst {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    }
+
+    .col2-2 {
+    width: 33.399%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .nota_n1 {
+    width: 100%;
+    margin: auto;
+    background: #454647;
+    }
+
+    .nota_1 {
+    float: left;
+    }
+
+    .foto_n1 {
+    width: 100%;
+    position: relative;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .n1_seccion {
+    float: left;
+    width: initial;
+    padding: 0px 10px;
+    background: #f8e300;
+    position: relative;
+    color: #000;
+    bottom: 0em;
+    left: 0em;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 0.9em;
+    font-family: arial;
+    }
+
+    .texto {
+    position: relative;
+    width: 88%;
+    margin-top: -48px;
+    height: 150px;
+    float: left;
+    }
+
+    .titular {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #FFF;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular a {
+    color: #fff;
+    }
+
+    .titular a:hover {
+    color: #000;
+    text-decoration: none;
+    }
+
+    .titular_2 {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #000;
+    font-size: 25px;
+    line-height: 28px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #f8e300;
+    }
+
+    .titular_2 a {
+    color: #000;
+    }
+
+    .titular_2:hover {
+    color: #35b7c3;
+    text-decoration: none;
+    }
+
+    .redes {
+    width: 40%;
+    height: auto;
+    top: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    .redes_icon {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    .redes_icon_ws {
+    display: block;
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon_ws img {
+    width: 90%;
+    height: auto;
+    }
+
+    #tit-lomasvisto {
+    background: #e39602;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 0px;
+    }
+
+    #tit-lomasvisto img {
+    text-align: right;
+    margin-right: 30px;
+    width: 48%;
+    float: right;
+    }
+
+    .texto_lomas {
+    width: 55%;
+    margin-top: 10px;
+    height: 100%;
+    float: left;
+    } 
+
+    .nota_lomas {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    }
+
+    .creditos_lomas {
+    text-align: right;
+    font-size: 11px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .creditos_lomas span {
+       font-weight: bold; 
+    }
+
+    .titular_lomas {
+    font-size: 23px;
+    line-height: 27px;
+    color: #8c8b8b;
+    text-align: right;
+    margin-right: 10px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .titular_lomas a {
+    color: #8c8b8b;   
+    }
+
+    .titular_lomas a:hover {
+    color: #e39602;
+    text-decoration: none;   
+    }
+
+    #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    #myImg:hover {opacity: 0.7;}
+
+    #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    #myImg2:hover {opacity: 0.7;}
+
+
+    .foto_lomas {
+    width: 45%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    } 
+
+    .foto_lomas img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .foto-lomas-inicio {
+    width: 45%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    } 
+
+    .foto-lomas-inicio img {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .linea_lomas {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left:10%;
+    border: 1px solid #eaeaea;
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    }
+
+    .nota-cuadro_caja {
+    width: 90%;
+    margin-left: 5% !important;
+    margin-top: 40px;
+    float: left;
+    }
+
+    .nota-cuadro_unica {
+    width: 90%;
+    margin-left: 5% !important;
+    margin-top: 40px;
+    float: left;
+}
+
+    .nota-cuadro_caja_publicidad {
+    display: block;
+    width: 90%;
+    margin-left: 5% !important;
+    float: left;
+    }
+
+    .nota-cuadro_caja_2 {
+    width: 90%;
+    float: left;
+    margin-left: 5% !important;
+    margin-top: 30px;
+    }
+
+    .nota-cuadro_doble {
+    width: 100%;
+    float: left;
+    }
+
+    .nota_cuadro {
+    width: 100%; 
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .seccion-cuadro {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: -20px;
+    position: relative;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .seccion-cuadro_2 {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: -20px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .redes_cuadro {
+    width: 45%;
+    height: auto;
+    bottom: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    .texto_cuadro {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    float: left;
+    }
+
+    .titular_cuadro {
+    width: 100%;
+    height: initial;
+    float: left;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #35b7c3;
+    }
+
+    .titular_verde {
+    width: 100%;
+    height: initial;
+    float: left;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 33px;
+    line-height: 40px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular_cuadro a {
+    color: #fff;
+    }
+
+    .titular_cuadro:hover {
+    color: #000;
+    background: #f8e300;
+    text-decoration: none;
+    }
+
+    .titular_verde a {
+    color: #000;
+    }
+
+    .titular_verde:hover {
+        color: #fff;
+        background: #35b7c3;
+        text-decoration: none;
+    }
+
+    .horoscopo_tit {
+    display: block;
+    float: left;
+    margin-left: 20%;
+    margin-top: -30px;
+    position: relative;
+    }
+
+    #linea_horos {
+    display: block;
+    width: 98%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border: 1px solid #d6d6d6;
+    }
+
+    #horoscopo_bg {
+    float: left;
+    width: 100%;
+    height: 370px;
+    margin-top: 25px;
+    background-image: url("../images/bg_horos_movil.jpg");
+    background-position: 50% 50%;
+    }
+
+    .border_horos {
+    display: block;
+    width: 92.5%;
+    margin-left: 3%;
+    margin-top: 2.5%;
+    height: 350px;
+    position: absolute;
+    border: 1px solid #B3B2B2;
+    }
+
+    .sib_principal {
+    float: left;
+    position: absolute;
+    margin-left: 8%;
+    }
+
+    .nob_fecha {
+    float: left;
+    }
+
+    .nombre_horoscopo {
+    width: 60%;
+    float: left;
+    margin-left: 27%;
+    margin-top: 10px;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 30px;
+    line-height: 25px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+    .fecha_mes {
+    float: left;
+    margin-left: 30%;
+    font-weight: bold;
+    }
+
+    .texto_horoscopo {
+    float: left;
+    margin-left: 5%;
+    width: 86%;
+    color: #000;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    padding-left: 0px;
+    }
+
+    .horoscopo_12 {
+    display: none;
+    width: 720px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+
+    .vertodos {
+    width: 166px;
+    float: left;
+    margin-left: 28%;
+    margin-bottom: 20px;
+    }
+
+    .header_tw {
+    width: 90%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+    }
+
+    .header_tw img {
+    width: 100%;
+    }
+
+    .widget_tw {
+    width: 90%;
+    margin-left: 5%;
+    }
+
+    .insta_web {
+        display: block;
+        width: 90%;
+        margin-left: 4% !important;
+    }
+
+    .insta_tablet {
+        display: none;
+    }
+
+    #columnista_bg {
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+    background-image: url("../images/bg_column.png");
+    }
+
+    .columnistas_tit {
+    float: left;
+    margin-left: 1.2%;
+    margin-top: -32px;
+    position: relative;
+    }
+
+    .columnistas_tit img {
+    width: 80%;
+    }
+
+    .carrusel_ancho {
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
+    }
+
+    .nota-column {
+    width: 100%;
+    }
+
+    .nota-colum-3 {
+        float: left;
+        width: 27%;
+        margin-right: 2% !important;
+    }
+
+    .foto_column {
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+
+    .foto_column img {
+    width: 180px;
+    height: 180px;   
+    }
+
+    .nombre_columnista {
+    display: inline;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .titular_column {
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    float: left;
+    padding: 5px 5px 15px;
+    color: #000;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "Roboto Slab";
+    }
+
+    .titular_column a {
+    color: #000;
+    }
+
+    .titular_column a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .lineacolum {
+        float: left;
+        margin: 0 15px 0 15px;
+    }
+
+    .caja_colum {
+        width: 900px;
+        margin-left: 50px;
+        text-align: center; 
+        float: left;
+    }
+
+    .linea_vermas {
+    width: 98%;
+    margin-top: 57px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border-bottom: 1px solid #d6d6d6; 
+    }
+
+    .linea_columnista {
+    margin-top: 80px; 
+    position: relative; 
+    width: 90% !important; 
+    float: left!important; 
+    margin-left: 6.5%;
+    border: 1px solid #d6d6d6;"
+    }
+
+    .vermas_facetas {
+    float: left;
+    margin-left: 26.5%;
+    position: absolute;
+    }
+
+    .vermas_facetas_text {
+    float: left;
+    margin-left: 39%;
+    position: absolute;
+    }
+
+    .loader_facetas {
+    width: 111px;
+    height: 111px;
+    margin-left: 36%;
+    background-image: url(../images/loader_facetas.png);
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    }
+
+    .loader_facetas:hover {
+    width: 111px;
+    height: 111px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    }
+
+    .tres_btn_box {
+    float: left;
+    width: 100%;
+    background: #f39400;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 0px;
+    }
+
+    .tres_btn {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    }
+
+    .tres_btn_1 {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    }
+
+    .tres_btn_linea {
+    width: 80%;
+    height: 5px;
+    text-align: center;
+    float: left;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-left: 10%;
+    background-image: url("../images/linea_horiz_orange.png");  
+    }
+
+    .footer_facetas {
+    width: 100%;
+    height: 210px;
+    float: left;
+    background-image: url(../images/bg_footer_facetas_movil.png);
+    background-size: 100% 100%;
+    }
+
+    .facetas_btn {
+    float: left;
+    width: 300px;
+    height: 195px;
+    margin-left: 14%;
+    margin-top: 15px;
+    }
+
+.face_logo_foot {
+    float: left;
+    width: 255px;
+    height: 105px;
+    background-image: url(../images/facetas_logo_footer.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 0px !important;
+    }
+
+    .face_logo_foot:hover {
+    float: left;
+    width: 255px;
+    height: 105px;
+    background-image: url(../images/facetas_logo_footer_hover.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+
+    .face_logo_foot_redes {
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-top: -15px !important;
+    margin-left: 85px !important;
+    }
+
+    .face_logo_foot_redes img {
+    width: 40%;
+    }
+
+    .face_logo_foot img {
+        width: 68%;
+    }
+
+    .face_pano_foot {
+    float: left;
+    width: 216px;
+    height: 20px;
+    text-align: center;
+    margin-left: 30px;
+    }
+
+    .face_pano_foot img {
+        width: 85%;
+    }
+
+    .subir_facetas {
+        float: right;
+        margin-top: -60px;
+        margin-right: 2%;
+    }
+
+    .subir_facetas img {
+        width: 80%;
+    }
+
+    .publicidad-avances {
+        display: none;
+    }
+
+    .publicidad {
+        display: block;
+        text-align: -webkit-center;
+    }
+
+     /* Detalle de noticia -------------------------------------------------------*/
+
+    .top_seccion_detalle {
+    display: block;
+    margin-top: 0px;
+    }
+
+    .valoracion_facetas {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 100%;
+    float: left;
+    background: #fff;
+    }
+
+    .titular_detalle_f {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #727272;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: "Roboto Slab";
+    }
+
+    .fecha_detalle_facetas {
+    float: left;
+    color: #8f8f8f;
+    margin-top: 18px;
+    font-size: 16px;
+    margin-left: 10px;
+    }
+
+    .iconos_face_detalle {
+    width: 65%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px !important;
+    float: none;
+    }
+
+    .ico_ws {
+    display: block;
+    }
+
+    .tit_foto_facetas {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .cuerpo_facetas {
+    width: 100%;
+    float: left;
+    color: #b8b4b4;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .cuerpo_facetas img {
+        width: 100%;
+    }
+
+    .like_1_facetas {
+    width: 20%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 4%;
+    }
+
+    .like_1_facetas img {
+        width: 65%;
+    }
+
+    .like_2_facetas {
+    width: 20%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 2%;
+    }
+
+    .like_2_facetas img {
+        width: 65%;
+    }
+
+    .text-like_facetas {
+    width: 50%;
+    margin-top: 35px;
+    float: left;
+    }
+
+    .text-like_facetas img {
+    width: 100%;
+    }
+
+    .sib_principal_detalle {
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    }
+
+    .sib_principal_detalle img {
+        width: 80%;
+    }
+
+    .nob_fecha_detalle {
+    float: right;
+    }
+
+    .nombre_horoscopo_detalle {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+    .fecha_mes_detalle {
+    float: right;
+    margin-right: 12px;
+    font-weight: bold;
+    margin-top: -10px;
+    font-size: 11px;
+    }
+
+    .vertodos_detalle {
+    width: 166px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 35px;
+    }
+
+    .cant-like_facetas {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_facetas {
+    background: #e39602;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    }
+
+    .nota_rela_facetas {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    }
+
+    .texto_rela_facetas {
+    width: 55%;
+    margin-top: 0px;
+    margin-right: -6px;
+    height: 100%;
+    float: right;
+    }
+
+    .creditos_rela_facetas {
+    text-align: left;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 5px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .titular_rela_facetas {
+    font-size: 27px;
+    line-height: 32px;
+    color: #676767;
+    text-align: left;
+    margin-right: 0px;
+    padding-left: 5px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .foto_rela_facetas {
+    margin-left: -3px;
+    }
+
+    .titular_rela_facetas a {
+        color: #676767;
+        text-decoration: none;
+    }
+
+    .titular_rela_facetas a:hover {
+        color: #676767;
+        text-decoration: none;
+    }
+
+    .foto_rela_facetas img {
+    width: 150px;
+    height: 150px;
+    }
+
+    .tit-comment_facetas {
+    background: #26b8c3;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .tit-mas_facetas {
+    background: #ff165d;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .text-coment_facetas {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .text-coment-2_facetas {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .btn-comment_facetas {
+    float: left;
+    color: #26b8c3;
+    font-family: "Roboto Slab";
+    font-weight: bolder;
+    text-align: center;
+    display: inline-block;
+    font-size: 23px;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .btn-comment_facetas a:hover {
+     color: #26b8c3 !important;
+     text-decoration: none;   
+    }
+
+    a {
+    text-decoration: none !important;
+    }
+
+    .comentarios-login_facetas {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .border_btn {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    }
+
+    .border_btn_2 {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    }
+
+    .iniciar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 13%;
+    }
+
+    .registrar_facetas {
+    float: left;
+    margin-top: 39px;
+    margin-bottom: 30px;
+    margin-left: 13%;
+    }
+
+    .cancelar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 9%;
+    }
+
+    .comentarios-box_facetas {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .comenta-box_facetas {
+    border: 2px solid #26b8c3 !important;
+    }
+
+    .username_facetas {
+    width: 100%;
+    font-size: 600 13px;
+    color: #26b8c3;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .usernumber_facetas {
+    display: inline-block;
+    width: 29px;
+    height: 24px;
+    font-size: 13px;
+    color: #26b8c3;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+    margin-right: 3px;
+    vertical-align: top;
+    line-height: 24px;
+    border: 1px solid #26b8c3;
+    }
+
+    .report_facetas {
+    font: 13px "Arial";
+    color: #26b8c3 !important;
+    margin-left: 8px;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    }
+
+    .report_facetas a {
+    color: #26b8c3 !important;  
+    }
+
+    .responder_facetas {
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    }
+
+    .vermas_facetas {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    }  
+
+    .vermas_fa_detalle {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 36%;
+    margin-top: -65px;
+    }  
+
+    .userphoto_facetas {
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/user_facetas.jpg);
+    }
+
+    .publicidad-3 {
+    display: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) {
+
+    .carrusel_movil {
+    display: block;
+    }
+
+    .carrusel_web {
+    display: none;
+    }
+
+    .lomasface {
+        display: none;
+    }
+
+    .insta-face {
+        display: none;
+    }
+
+    .twit-face {
+        display: none;
+    }
+
+    .relacionadas-face {
+        margin-top: 0px;
+    }
+
+    .seccion-movil-face {
+        display: block;
+    }
+
+    /* Laterales -----------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+    }
+
+    .header_web {
+    width: 100%;
+    height: 140px;
+    float: left;
+    background-image: url("../images/bg_facetas_movil.jpg");
+    background-size: 100%;
+    }
+
+    .logo_web {
+        margin-left: 36px;
+        width: 44%;
+        height: 115px;
+        float: left;
+        position: relative;
+    }
+
+    .logo_web img {
+        width: 100%;
+    } 
+
+    .rd_pano {
+        width: 45%;
+        height: auto;
+        float: right;
+        margin-top: 25px;
+        margin-right: 15px;
+    }
+
+    .siguenos {
+        width: 160px;
+        height: auto;
+        float: left;
+    }
+
+    .siguenos img {
+        width: 100%;
+    }
+
+
+    .tw_web {
+        float: left;
+        width: 46px;
+    }
+
+    .tw_web img {
+        width: 100%;
+    }
+
+    .int_web {
+        float: left;
+        width: 46px;
+        margin-left: 10px;
+    }
+
+    .int_web img {
+        width: 100%;
+    }
+
+    .pano_volver {
+        width: 260px;
+        float: left;
+        margin-top: 25px;
+    }
+
+    .pano_volver img {
+        width: 100%;
+    }
+
+    .bloque1 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .col1 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col1-2 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col2 {
+    width: 100%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .col_right {
+    width: 32.299%;
+    border: 1px solid red;
+    float: left;
+    margin-top: 40px;   
+    }
+
+    .col1_right {
+    width: 100%;
+    float: left;   
+    }
+
+    .col2_inst {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    }
+
+    .col2-2 {
+    width: 33.399%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .nota_n1 {
+    width: 100%;
+    margin: auto;
+    background: #454647;
+    }
+
+    .nota_1 {
+    float: left;
+    }
+
+    .foto_n1 {
+    width: 100%;
+    position: relative;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .n1_seccion {
+    float: left;
+    width: initial;
+    padding: 0px 10px;
+    background: #f8e300;
+    position: relative;
+    color: #000;
+    bottom: 0em;
+    left: 0em;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .texto {
+    position: relative;
+    width: 87%;
+    margin-top: -48px;
+    height: 160px;
+    float: left;
+    }
+
+    .titular {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #FFF;
+    font-size: 35px;
+    line-height: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular a {
+    color: #fff;
+    }
+
+    .titular a:hover {
+    color: #000;
+    text-decoration: none;
+    }
+
+    .titular_2 {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #000;
+    font-size: 35px;
+    line-height: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #f8e300;
+    }
+
+    .titular_2 a {
+    color: #000;
+    }
+
+    .titular_2:hover {
+    color: #35b7c3;
+    text-decoration: none;
+    }
+
+    .redes {
+    width: 30%;
+    height: auto;
+    top: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    .redes_icon {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    .redes_icon_ws {
+    display: none;
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon_ws img {
+    width: 90%;
+    height: auto;
+    }
+
+    #tit-lomasvisto {
+    background: #e39602;
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 30px;
+    }
+
+    #tit-lomasvisto img {
+    text-align: right;
+    margin-right: 30px;
+    width: 48%;
+    float: right;
+    }
+
+    .texto_lomas {
+    width: 60%;
+    margin-top: 10px;
+    height: 100%;
+    float: left;
+    } 
+
+    .nota_lomas {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    }
+
+    .creditos_lomas {
+    text-align: right;
+    font-size: 15px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .creditos_lomas span {
+       font-weight: bold; 
+    }
+
+    .titular_lomas {
+    font-size: 40px;
+    line-height: 40px;
+    color: #8c8b8b;
+    text-align: right;
+    margin-right: 10px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .titular_lomas a {
+    color: #8c8b8b;   
+    }
+
+    .titular_lomas a:hover {
+    color: #e39602;
+    text-decoration: none;   
+    }
+
+    #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    #myImg:hover {opacity: 0.7;}
+
+    #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    #myImg2:hover {opacity: 0.7;}
+
+
+    .foto_lomas {
+    width: 40%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    } 
+
+    .foto_lomas img {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .linea_lomas {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    margin-left:10%;
+    border: 1px solid #eaeaea;
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    }
+
+    .nota-cuadro_caja {
+    width: 90%;
+    margin-left: 5% !important;
+    margin-top: 40px;
+    float: left;
+    }
+
+    .nota-cuadro_caja_publicidad {
+    display: none;
+    width: 90%;
+    margin-left: 5% !important;
+    margin-top: 40px;
+    float: left;
+    }
+
+    .nota-cuadro_caja_2 {
+    width: 90%;
+    float: left;
+    margin-left: 5% !important;
+    margin-top: 30px;
+    }
+
+    .nota-cuadro_doble {
+    width: 100%;
+    float: left;
+    }
+
+    .nota_cuadro {
+    width: 100%; 
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .seccion-cuadro {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: -20px;
+    position: relative;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .seccion-cuadro_2 {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: -20px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .redes_cuadro {
+    width: 45%;
+    height: auto;
+    bottom: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    .texto_cuadro {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    float: left;
+    }
+
+    .titular_cuadro {
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: bold;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #35b7c3;
+    }
+
+    .titular_verde {
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 35px;
+    line-height: 43px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular_cuadro a {
+    color: #fff;
+    }
+
+    .titular_cuadro:hover {
+    color: #000;
+    text-decoration: none;
+    }
+
+    .titular_verde a {
+    color: #000;
+    }
+
+    .titular_verde:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .horoscopo_tit {
+    display: block;
+    float: left;
+    margin-left: 40%;
+    margin-top: -30px;
+    position: relative;
+    }
+
+    #linea_horos {
+    display: block;
+    width: 98%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border: 1px solid #d6d6d6;
+    }
+
+    #horoscopo_bg {
+    float: left;
+    width: 100%;
+    height: 450px;
+    margin-top: 25px;
+    background-image: url("../images/bg_horos_movil.jpg");
+    background-position: 50% 88%;
+    }
+
+    .border_horos {
+    display: block;
+    width: 94%;
+    margin-left: 2%;
+    margin-top: 2.5%;
+    height: 420px;
+    position: absolute;
+    border: 1px solid #B3B2B2;
+    }
+
+    .sib_principal {
+    float: left;
+    position: absolute;
+    margin-left: 110px;
+    }
+
+    .nob_fecha {
+    float: left;
+    }
+
+    .nombre_horoscopo {
+    width: 60%;
+    float: left;
+    margin-left: 150px;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 45px;
+    line-height: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+    .fecha_mes {
+    float: left;
+    margin-left: 195px;
+    font-weight: bold;
+    }
+
+    .texto_horoscopo {
+    float: left;
+    margin-left: 10%;
+    width: 80%;
+    color: #000;
+    margin-top: 20px;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    padding-left: 10px;
+    }
+
+    .horoscopo_12 {
+    display: none;
+    width: 720px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+
+    .vertodos {
+    width: 166px;
+    float: left;
+    margin-left: 37%;
+    }
+
+    .header_tw {
+    width: 90%;
+    float: left;
+    margin-top: 40px;
+    margin-left: 5%;
+    }
+
+    .header_tw img {
+    width: 100%;
+    }
+
+    .widget_tw {
+    width: 90%;
+    margin-left: 5%;
+    }
+
+    .insta_web {
+        display: block;
+        width: 90%;
+        margin-left: 7%;
+    }
+
+    .insta_tablet {
+        display: none;
+    }
+
+    #columnista_bg {
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+    background-image: url("../images/bg_column.png");
+    }
+
+    .columnistas_tit {
+    float: left;
+    margin-left: 1.2%;
+    margin-top: -42px;
+    position: relative;
+    }
+
+    .carrusel_ancho {
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
+    }
+
+    .nota-column {
+    width: 100%;
+    }
+
+    .nota-colum-3 {
+        float: left;
+        width: 30%;
+    }
+
+    .foto_column {
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+
+    .foto_column img {
+    width: 180px;
+    height: 180px;   
+    }
+
+    .nombre_columnista {
+    display: inline;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .titular_column {
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    float: left;
+    padding: 5px 5px 15px;
+    color: #000;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "Roboto Slab";
+    }
+
+    .titular_column a {
+    color: #000;
+    }
+
+    .titular_column a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .lineacolum {
+        float: left;
+        margin: 0 15px 0 15px;
+    }
+
+    .caja_colum {
+        width: 900px;
+        margin-left: 50px;
+        text-align: center; 
+        float: left;
+    }
+
+    .linea_vermas {
+    width: 98%;
+    margin-top: 57px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border-bottom: 1px solid #d6d6d6; 
+    }
+
+    .linea_columnista {
+    margin-top: 80px; 
+    position: relative; 
+    width: 70% !important; 
+    float: left!important; 
+    margin-left: 150px; 
+    border: 1px solid #d6d6d6;"
+    }
+
+    .vermas_facetas {
+    float: left;
+    margin-left: 26.5%;
+    position: absolute;
+    }
+
+    .vermas_facetas_text {
+    float: left;
+    margin-left: 44%;
+    position: absolute;
+    }
+
+    .loader_facetas {
+    width: 111px;
+    height: 111px;
+    margin-left: 42%;
+    background-image: url(../images/loader_facetas.png);
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    }
+
+    .loader_facetas:hover {
+    width: 111px;
+    height: 111px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    }
+
+    .tres_btn_box {
+    float: left;
+    width: 100%;
+    background: #f39400;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 0px;
+    }
+
+    .tres_btn {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    }
+
+    .tres_btn_1 {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    }
+
+    .tres_btn_linea {
+    width: 80%;
+    height: 5px;
+    text-align: center;
+    float: left;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-left: 10%;
+    background-image: url("../images/linea_horiz_orange.png");  
+    }
+
+    .footer_facetas {
+    width: 100%;
+    height: 210px;
+    float: left;
+    background-image: url(../images/bg_footer_facetas.png);
+    background-size: 100% 100%;
+    }
+
+    .facetas_btn {
+    float: left;
+    width: 300px;
+    height: 195px;
+        margin-left: 26.5%;
+    margin-top: 10px;
+    }
+
+    .face_logo_foot {
+    float: left;
+    width: 255px;
+    height: 105px;
+    background-image: url(../images/facetas_logo_footer.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 0px !important;
+    }
+
+    .face_logo_foot:hover {
+        float: left;
+        width: 255px;
+        height: 105px;
+        background-image: url(../images/facetas_logo_footer_hover.png);
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .face_logo_foot_redes {
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-top: -15px !important;
+    margin-left: 85px !important;
+    }
+
+    .face_logo_foot_redes img {
+        width: 40%;
+    }
+
+    .face_pano_foot {
+    float: left;
+    width: 216px;
+    height: 20px;
+    text-align: center;
+    margin-left: 30px;
+    }
+
+    .face_pano_foot img {
+        width: 85%;
+    }
+
+    .subir_facetas {
+        float: right;
+        margin-top: 130px;
+        margin-right: 30px;
+    }
+
+    .publicidad-avances {
+        display: none;
+    }
+
+    .publicidad {
+        display: block;
+    }
+
+
+    /* Detalle de noticia -------------------------------------------------------*/
+    .top_seccion_detalle {
+    display: block;
+    margin-top: 0px;
+    }
+
+    .valoracion_facetas {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 100%;
+    float: left;
+    background: #fff;
+    }
+
+    .titular_detalle_f {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #727272;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: "Roboto Slab";
+    }
+
+    .fecha_detalle_facetas {
+    float: left;
+    color: #8f8f8f;
+    margin-top: 18px;
+    font-size: 16px;
+    margin-left: 20px;
+    }
+
+    .iconos_face_detalle {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px !important;
+    float: none;
+    }
+
+    .ico_ws {
+    display: none;
+    }
+
+    .tit_foto_facetas {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .cuerpo_facetas {
+    width: 100%;
+    float: left;
+    color: #b8b4b4;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .cuerpo_facetas img {
+        width: 100%;
+    }
+
+    .like_1_facetas {
+    width: 20%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 10%;
+    }
+
+    .like_1_facetas img {
+        width: 65%;
+    }
+
+    .like_2_facetas {
+    width: 20%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 2%;
+    }
+
+    .like_2_facetas img {
+        width: 65%;
+    }
+
+    .text-like_facetas {
+    margin-top: 35px;
+    float: left;
+    }
+
+    .sib_principal_detalle {
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    }
+
+    .sib_principal_detalle img {
+        width: 80%;
+    }
+
+    .nob_fecha_detalle {
+    float: right;
+    }
+
+    .nombre_horoscopo_detalle {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+.fecha_mes_detalle {
+    float: right;
+    margin-right: 12px;
+    font-weight: bold;
+    margin-top: -10px;
+    font-size: 11px;
+    }
+
+    .vertodos_detalle {
+    width: 166px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 35px;
+    }
+
+    .cant-like_facetas {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_facetas {
+    background: #e39602;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    }
+
+    .nota_rela_facetas {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    }
+
+    .texto_rela_facetas {
+    width: 55%;
+    margin-top: 20px;
+    margin-right: 15px;
+    height: 100%;
+    float: right;
+    }
+
+    .creditos_rela_facetas {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 5px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .titular_rela_facetas {
+    font-size: 40px;
+    line-height: 40px;
+    color: #676767;
+    text-align: left;
+    margin-right: 15px;
+    padding-left: 5px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .foto_rela_facetas {
+        margin-left: 25px;
+    }
+
+    .titular_rela_facetas a {
+        color: #676767;
+        text-decoration: none;
+    }
+
+    .titular_rela_facetas a:hover {
+        color: #676767;
+        text-decoration: none;
+    }
+
+    .foto_rela_facetas img {
+    width: 180px;
+    height: 180px;
+    }
+
+    .tit-comment_facetas {
+    background: #26b8c3;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .tit-mas_facetas {
+    background: #ff165d;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .text-coment_facetas {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .text-coment-2_facetas {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .btn-comment_facetas {
+    float: left;
+    color: #26b8c3;
+    font-family: "Roboto Slab";
+    font-weight: bolder;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .btn-comment_facetas a:hover {
+     color: #26b8c3 !important;
+     text-decoration: none;   
+    }
+
+    a {
+    text-decoration: none !important;
+    }
+
+    .comentarios-login_facetas {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .border_btn {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    }
+
+    .border_btn_2 {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    }
+
+    .iniciar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    }
+
+    .registrar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    }
+
+    .cancelar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    }
+
+    .comentarios-box_facetas {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .comenta-box_facetas {
+    border: 2px solid #26b8c3 !important;
+    }
+
+    .username_facetas {
+    width: 100%;
+    font-size: 600 13px;
+    color: #26b8c3;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .usernumber_facetas {
+    display: inline-block;
+    width: 29px;
+    height: 24px;
+    font-size: 13px;
+    color: #26b8c3;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+    margin-right: 3px;
+    vertical-align: top;
+    line-height: 24px;
+    border: 1px solid #26b8c3;
+    }
+
+    .report_facetas {
+    font: 13px "Arial";
+    color: #26b8c3 !important;
+    margin-left: 8px;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    }
+
+    .report_facetas a {
+    color: #26b8c3 !important;  
+    }
+
+    .responder_facetas {
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    }
+
+    .vermas_facetas {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 255px;
+    }  
+
+    .vermas_fa_detalle {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 325px;
+    margin-top: -65px;
+    }  
+
+    .userphoto_facetas {
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/user_facetas.jpg);
+    }
+
+    .publicidad-3 {
+    display: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .carrusel_movil {
+    display: none;
+    }
+
+    .carrusel_web {
+    display: block;
+    }
+
+    .top-tres {
+    margin-top: 50px !important;
+    }
+
+    .top-insta-web {
+    margin-top: 0px;
+    }
+
+    .bloque-twit {
+    width: 49%; 
+    float: left;        
+    }
+
+    .bloque-nota {
+    width: 49%; 
+    float: right; 
+    margin-top: 10px;
+    }
+
+    .lomasface {
+        display: block;
+    }
+
+    .insta-face {
+        display: block;
+    }
+
+    .twit-face {
+        display: block;
+    }
+
+    .relacionadas-face {
+        margin-top: 5px;
+    }
+
+    .top-publi {
+        margin-top: 0px;
+    }
+
+    .seccion-movil-face {
+        display: none;
+    }
+
+    .banner-cuadro {
+    width: 300px;
+    margin-left: 8px;
+    height: 250px;
+    }
+
+    .publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    }
+
+   .B-hori-img {
+    width: 768px;
+    height: 78px;
+    background-image: url(../images/banner768x78_H2.jpg);
+    margin-left: 0%;
+    }
+
+    /* Laterales -----------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+        /* background: #ccc; */
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+        /* background: #555; */
+    }
+
+    .header_web {
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    float: left;
+    background-image: url("../images/header_bg_facetas.jpg");
+    background-size: 100%;
+    }
+
+    .logo_web {
+        margin-left: 12.5%;
+        width: 246px;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+
+    .logo_web img {
+        width: 100%;
+    }
+
+    .rd_pano {
+    width: 28%;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+    margin-right: 26px;
+    } 
+
+    .siguenos {
+        width: 115px;
+        float: left;
+    }
+
+    .siguenos img {
+        width: 100%;
+    }
+
+    .tw_web {
+        width: 33px;
+        float: left;
+    }
+
+    .tw_web img {
+        width: 100%;
+    }
+
+    .int_web {
+        width: 33px;
+        float: left;
+        margin-left: 10px;
+    }  
+
+    .int_web img {
+        width: 100%;
+    }  
+
+    .pano_volver {
+        width: 222px;
+        float: left;
+        margin-top: 12px;
+    }
+
+    .pano_volver img {
+        width: 100%;
+    } 
+
+    .bloque1 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .col1 {
+    width: 56%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col1-especial {
+    float: right;
+    margin-top: -420px;
+    margin-right: 25px;
+    width: 69%;
+    }
+
+    .col1-2 {
+    width: 66%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col2 {
+    width: 42%;
+    float: right;
+    margin-top: 5px;
+    background: #fff;
+    }
+
+    .col2_inst {
+    width: 64.6%;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    }
+
+    .col_right {
+    width: 32.299%;
+    border: 1px solid red;
+    float: left;   
+    }
+
+    .col1_right {
+    width: 32.299%;
+    float: left;   
+    }
+
+    .col2-2 {
+    width: 33.399%;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .nota_n1 {
+    width: 100%;
+    margin: auto;
+    background: #454647;
+    }
+
+    .foto_n1 {
+    width: 100%;
+    position: relative;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .n1_seccion {
+    float: left;
+    width: initial;
+    padding: 0px 10px;
+    background: #f8e300;
+    position: relative;
+    color: #000;
+    bottom: 0em;
+    left: 0em;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .texto {
+    position: relative;
+    width: 87%;
+    margin-top: -48px;
+    height: 100px;
+    float: left;
+    }
+
+    .titular {
+    width: 100%;
+    height: 110px;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #FFF;
+    font-size: 28px;
+    line-height: 30px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular a {
+    color: #fff;
+    }
+
+    .titular a:hover {
+    color: #000;
+    text-decoration: none;
+    }
+
+    .titular_2 {
+    width: 100%;
+    height: 110px;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #000;
+    font-size: 28px;
+    line-height: 30px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #f8e300;
+    }
+
+    .titular_2 a {
+    color: #000;
+    }
+
+    .titular_2:hover {
+    color: #35b7c3;
+    text-decoration: none;
+    }
+
+    .redes {
+    width: 30%;
+    height: auto;
+    top: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    .redes_icon {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    .redes_icon_ws {
+    display: none;
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    #tit-lomasvisto {
+    background: #e39602;
+    height: 30px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0px; 
+    }
+
+    #tit-lomasvisto img {
+    text-align: right;
+    margin-left: 70px;
+    }
+
+    .texto_lomas {
+    width: 60%;
+    margin-top: 10px;
+    height: 100%;
+    float: left;
+    } 
+
+    .nota_lomas {
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    }
+
+    .creditos_lomas {
+    text-align: right;
+    font-size: 10px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .titular_lomas {
+    font-size: 23px;
+    line-height: 22px;
+    color: #676767;
+    text-align: right;
+    margin-right: 10px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .titular_lomas a {
+    color: #8c8b8b;   
+    }
+
+    .titular_lomas a:hover {
+    color: #e39602;
+    text-decoration: none;   
+    }
+
+    #myImg:hover {opacity: 0.7;}
+
+    #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    #myImg2:hover {opacity: 0.7;}
+
+
+    .foto_lomas {
+    width: 40%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    } 
+
+    .foto_lomas img {
+    width: 120px;
+    height: 120px;
+    }
+
+    .foto-lomas-inicio {
+    width: 40%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    } 
+
+    .foto-lomas-inicio img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .linea_lomas {
+    width: 80%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left:10%;
+    border: 1px solid #eaeaea;
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    }
+
+    .nota-cuadro_caja {
+    width: 32.5%;
+    float: left;
+    margin-left: 0.5% !important;
+    margin-top: 0px;
+    }
+
+    .nota-cuadro_unica {
+    width: 100%;
+    float: left;
+    margin-left: 0.5% !important;
+    margin-top: 0px;
+    }
+
+    .nota-cuadro_caja_publicidad {
+    display: block;
+    width: 32.5%;
+    margin-left: 1% !important;
+    margin-top: 40px;
+    float: left;
+    }
+
+    .nota-cuadro_caja_2 {
+    width: 48.8%;
+    float: left;
+    margin-left: 1.2% !important;
+    }
+
+    .nota-cuadro_doble {
+    width: 100%;
+    float: left;
+    }
+
+    .nota_cuadro {
+    width: 100%;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .seccion-cuadro {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: -20px;
+    position: relative;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .seccion-cuadro_2 {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: -20px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .seccion-cuadro {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: -20px;
+    position: relative;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .seccion-cuadro_2 {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: -20px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .redes_cuadro {
+    width: 45%;
+    height: auto;
+    bottom: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    .texto_cuadro {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    float: left;
+    }
+
+    .titular_cuadro {
+    width: 100%;
+    height: 115px;
+    float: left;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #35b7c3;
+    }
+
+    .titular_verde {
+    width: 100%;
+    height: 110px;
+    float: left;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 22px;
+    line-height: 25px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular_cuadro a {
+    color: #fff;
+    }
+
+    .titular_cuadro:hover {
+    color: #000;
+    background: #f8e300;
+    text-decoration: none;
+    }
+
+    .titular_verde a {
+        color: #000;
+    }
+
+    .titular_verde:hover {
+        color: #fff;
+        background: #35b7c3;
+        text-decoration: none;
+    }
+
+    .horoscopo_tit {
+    display: block;
+    float: left;
+    margin-left: 40%;
+    margin-top: -30px;
+    position: relative;
+    }
+
+    .columnistas_tit {
+    float: left;
+    margin-left: 1.2%;
+    margin-top: -42px;
+    position: relative;
+    }
+
+    .caja_colum {
+        width: 750px;
+        text-align: center; 
+        float: left;
+    }
+
+    #linea_horos {
+    display: block;
+    width: 98%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border: 1px solid #eaeaea;
+    }
+
+    .linea_columnista {
+    margin-top: 80px;
+    position: relative;
+    width: 80% !important;
+    float: left!important;
+    margin-left: 150px;
+    border: 1px solid #d6d6d6;
+    }
+
+    .linea_vermas {
+    width: 98%;
+    margin-top: 57px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border-bottom: 1px solid #d6d6d6; 
+    }
+
+    #horoscopo_bg {
+    float: left;
+    width: 100%;
+    height: 235px;
+    margin-top: 15px;
+    background-image: url("../images/bg_horos.jpg");
+    }
+
+    .border_horos {
+    display: none;
+    width: 92.5%;
+    margin-left: 3%;
+    margin-top: 2.5%;
+    height: 350px;
+    position: absolute;
+    border: 1px solid #B3B2B2;
+    }
+
+    #columnista_bg {
+    float: left;
+    width: 100%;
+    height: 340px;
+    margin-top: 25px;
+    background-image: url("../images/bg_column.png");
+    }
+
+    .carrusel_ancho {
+    position: relative !important;
+    width: 770px !important;
+    display: block !important;
+    margin-left: -25px;
+    }
+
+    .nota-colum-3 {
+    float: left;
+    width: 25%;   
+    }
+
+    .nota-column {
+    width: 100%;
+    }
+
+    .foto_column {
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+
+    .foto_column img {
+    width: 160px;
+    height: 160px;   
+    }
+
+    .nombre_columnista {
+    display: inline;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .titular_column {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 5px 5px 15px;
+    color: #000;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    font-family: "Roboto Slab";
+    }
+
+    .titular_column a {
+    color: #000;
+    }
+
+    .titular_column a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .sib_principal {
+    float: left;
+    margin-left: 10px;
+    position: inherit;
+    }
+
+    .nob_fecha {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    }
+
+    .nombre_horoscopo {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 32px;
+    line-height: 35px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+    .fecha_mes {
+    float: right;
+    margin-right: 5px;
+    margin-left: 0px;
+    font-weight: bold;
+    }
+
+    .texto_horoscopo {
+    float: left;
+    width: 55%;
+    color: #000;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    }
+
+    .horoscopo_12 {
+    display: block;
+    width: 72%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+
+    .horoscopo_12 img {
+    width: 100%;
+    }
+
+    .vertodos {
+    width: 16%;
+    float: left;
+    margin-left: 30px;
+    }
+
+    .vertodos img {
+        width: 100%;
+    }
+
+     .header_tw {
+    float: left;
+    margin-top: 0px;
+    }
+
+    .header_tw img {
+    width: 98%;
+    }
+
+    .widget_tw {
+    width: 100%;
+    margin-left: 0%;
+    }
+
+    .insta_tablet {
+        display: block;
+    }
+
+    .insta_web {
+        display: block;
+    }
+
+    .vermas_facetas {
+    float: left;
+    margin-left: 26.5%;
+    position: absolute;
+    }
+
+    .vermas_facetas_text {
+    float: left;
+    margin-left: 335px;
+    position: absolute;
+    }
+
+    .loader_facetas {
+    width: 111px;
+    height: 111px;
+    margin-left: 325px;
+    background-image: url(../images/loader_facetas.png);
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    }
+
+    .loader_facetas:hover {
+    width: 111px;
+    height: 111px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    }
+
+    .tres_btn_box {
+    float: left;
+    width: 94%;
+    background: #f39400;
+    height: 45px;
+    margin-left: 22px;
+    margin-top: 90px;
+    }
+
+    .tres_btn {
+    width: initial;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    }
+
+    .tres_btn_1 {
+    width: initial;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    }
+
+    .tres_btn_linea {
+    width: 5px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-image: url("../images/linea_btn_orange.png");  
+    }
+
+    .footer_facetas {
+    width: 100%;
+    height: 195px;
+    float: left;
+    background-image: url(../images/bg_footer_facetas.png);
+    background-size: 100%;
+    }
+
+    .facetas_btn {
+        float: left;
+        width: 300px;
+        height: 195px;
+        margin-left: 250px;
+    }
+
+    .face_logo_foot {
+    float: left;
+    width: 255px;
+    height: 105px;
+    background-image: url(../images/facetas_logo_footer.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 0px !important;
+    }
+
+    .face_logo_foot:hover {
+        float: left;
+        width: 255px;
+        height: 105px;
+        background-image: url(../images/facetas_logo_footer_hover.png);
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .face_logo_foot_redes {
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-top: -15px !important;
+    margin-left: 85px !important;
+    }
+
+    .face_logo_foot_redes img {
+        width: 40%;
+    }
+
+    .face_pano_foot {
+    float: left;
+    width: 216px;
+    height: 20px;
+    text-align: center;
+    margin-left: 30px;
+    }
+
+    .face_pano_foot img {
+    width: 85%;
+    }
+
+    .subir_facetas {
+        float: right;
+        margin-top: 120px;
+        margin-right: 30px;
+    }
+
+    .publicidad-avances {
+        display: block;
+            margin-top: 30px;
+    }
+
+    .publicidad {
+        display: block;
+    }
+
+ /* Detalle de noticia -------------------------------------------------------*/
+    .top_seccion_detalle {
+    display: block;
+    margin-top: 0px !important;
+    }
+
+    .valoracion_facetas {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 100%;
+    float: left;
+    background: #fff;
+    }
+
+    .titular_detalle_f {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #727272;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: "Roboto Slab";
+    }
+
+    .fecha_detalle_facetas {
+    float: left;
+    color: #8f8f8f;
+    margin-top: 18px;
+    font-size: 16px;
+    margin-left: 20px;
+    }
+
+    .iconos_face_detalle {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px !important;
+    float: none;
+    }
+
+    .ico_ws {
+    display: none;
+    }
+
+    .tit_foto_facetas {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .cuerpo_facetas {
+    width: 100%;
+    float: left;
+    color: #b8b4b4;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .cuerpo_facetas img {
+        width: 100%;
+    }
+
+    .like_1_facetas {
+    width: 18%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 6%;
+    }
+
+    .like_1_facetas img {
+        width: 65%;
+    }
+
+    .like_2_facetas {
+    width: 18%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 2%;
+    }
+
+    .like_2_facetas img {
+        width: 65%;
+    }
+
+    .text-like_facetas {
+    margin-top: 35px;
+    float: left;
+    }
+
+    .sib_principal_detalle {
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    }
+
+    .sib_principal_detalle img {
+        width: 80%;
+    }
+
+    .nob_fecha_detalle {
+    float: right;
+    }
+
+    .nombre_horoscopo_detalle {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 23px;
+    line-height: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+.fecha_mes_detalle {
+    float: right;
+    margin-right: 12px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-right: 10px;
+    }
+
+    .vertodos_detalle {
+    width: 166px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 35px;
+    }
+
+    .cant-like_facetas {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_facetas {
+    background: #e39602;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    }
+
+    .nota_rela_facetas {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    }
+
+    .texto_rela_facetas {
+    width: 55%;
+    margin-top: 0px;
+    height: 100%;
+    float: right;
+    margin-right: 0px;
+    }
+
+    .foto_rela_facetas {
+    margin-left: 0px;
+    }
+
+    .creditos_rela_facetas {
+    text-align: left;
+    font-size: 11px;
+    margin-left: 5px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .titular_rela_facetas {
+    font-size: 15px;
+    line-height: 17px;
+    color: #676767;
+    text-align: left;
+    margin-right: 15px;
+    padding-left: 5px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .titular_rela_facetas a {
+        color: #676767;
+        text-decoration: none;
+    }
+
+    .titular_rela_facetas a:hover {
+        color: #676767;
+        text-decoration: none;
+    }
+
+    .foto_rela_facetas img {
+    width: 85px;
+    height: 85px;
+    }
+
+    .tit-comment_facetas {
+    background: #26b8c3;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .tit-mas_facetas {
+    background: #ff165d;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .text-coment_facetas {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .text-coment-2_facetas {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .btn-comment_facetas {
+    float: left;
+    color: #26b8c3;
+    font-family: "Roboto Slab";
+    font-weight: bolder;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .btn-comment_facetas a:hover {
+     color: #26b8c3 !important;
+     text-decoration: none;   
+    }
+
+    a {
+    text-decoration: none !important;
+    }
+
+    .comentarios-login_facetas {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .border_btn {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    }
+
+    .border_btn_2 {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    }
+
+    .iniciar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 61px;
+    }
+
+    .registrar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    }
+
+    .cancelar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    }
+
+    .comentarios-box_facetas {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .comenta-box_facetas {
+    border: 2px solid #26b8c3 !important;
+    }
+
+    .username_facetas {
+    width: 100%;
+    font-size: 600 13px;
+    color: #26b8c3;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .usernumber_facetas {
+    display: inline-block;
+    width: 29px;
+    height: 24px;
+    font-size: 13px;
+    color: #26b8c3;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+    margin-right: 3px;
+    vertical-align: top;
+    line-height: 24px;
+    border: 1px solid #26b8c3;
+    }
+
+    .report_facetas {
+    font: 13px "Arial";
+    color: #26b8c3 !important;
+    margin-left: 8px;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    }
+
+    .report_facetas a {
+    color: #26b8c3 !important;  
+    }
+
+    .responder_facetas {
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    }
+
+    .vermas_facetas {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 325px;
+    }  
+
+    .vermas_fa_detalle {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 325px;
+    margin-top: -65px;
+    }  
+    
+
+    .userphoto_facetas {
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/user_facetas.jpg);
+    }
+
+    .publicidad-3 {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .carrusel_movil {
+    display: none;
+    }
+
+    .carrusel_web {
+    display: block;
+    }
+
+    .top-tres {
+    margin-top: 20px !important;
+    }
+
+    .top-insta-web {
+    margin-top: 33px !important;
+    }
+
+    .bloque-twit {
+    width: 49%; 
+    float: left;        
+    }
+
+    .bloque-nota {
+    width: 49%; 
+    float: right; 
+    margin-top: 10px;
+    }
+
+    .lomasface {
+        display: block;
+    }
+
+    .insta-face {
+        display: block;
+    }
+
+    .twit-face {
+        display: block;
+    }
+
+    .relacionadas-face {
+        margin-top: 5px;
+    }
+
+    .top-publi {
+        margin-top: 0px;
+    }
+
+    .seccion-movil-face {
+        display: none;
+    }
+
+    .publicidad-Hori {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    }
+
+    .B-hori-img {
+    width: 1000px;
+    height: 100px;
+    background-image: url(../images/banner1000x100_H1.jpg);
+    margin-left: 0%;
+    }
+
+    /* Laterales -----------------------*/
+    .laterales {
+        display: none;
+        width:1330px; 
+        margin: auto;
+    }
+
+    .lateral1 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: left;
+    }
+
+    .lateral2 {
+        display: none;
+        width:160px;
+        height:600px;
+        float: right;
+    }
+
+    .header_web {
+    width: 100%;
+    height: 136px;
+    margin-top: 15px;
+    float: left;
+    background-image: url("../images/header_bg_facetas.jpg");
+    background-size: 100%;
+    }
+
+    .logo_web {
+        margin-left: 12.5%;
+        width: 300px;
+        height: 115px;
+        float: left;
+        position: relative;
+    }
+
+    .rd_pano {
+        width: 30%;
+        height: auto;
+        float: right;
+        margin-top: 28px;
+        margin-right: 15px;
+    }
+
+    .siguenos {
+        width: 160px;
+        height: auto;
+        float: left;
+    }
+
+    .siguenos img {
+        width: 100%;
+    }
+
+    .tw_web {
+        float: left;
+        width: 46px;
+    }
+
+    .tw_web img {
+        width: 100%;
+    }
+
+    .int_web {
+        float: left;
+        width: 46px;
+    }
+
+    .int_web img {
+        width: 100%;
+    }
+
+    .pano_volver {
+        width: 290px;
+        float: left;
+    }
+
+    .pano_volver img {
+        width: 100%;
+    }
+
+    .bloque1 {
+        margin: 0 auto;
+        width: 980px;
+    }
+
+    .col1 {
+    width: 64.6%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .col1-especial {
+    float: right;
+    margin-top: -379px;
+    margin-right: 27px;
+    width: 64.9%;
+    }
+
+    .col1-2 {
+    width: 66%;
+    float: left;
+    margin-top: 5px;
+
+    }
+
+    .col2 {
+    width: 33.399%;
+    float: right;
+    margin-top: 5px;
+    background: #fff;
+    }
+
+    .col_right {
+    width: 32.299%;
+    border: 1px solid red;
+    float: left;
+    margin-top: 40px;   
+    }
+
+    .col1_right {
+    width: 32.299%;
+    float: left;   
+    }
+
+    .col2_inst {
+    width: 64.6%;
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+    }
+
+    .col2-2 {
+    width: 33.399%;
+    float: left;
+    margin-top: 5px;
+    }
+
+    .nota_n1 {
+    width: 100%;
+    margin: auto;
+    background: #454647;
+    }
+
+    .foto_n1 {
+    width: 100%;
+    position: relative;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .n1_seccion {
+    float: left;
+    width: initial;
+    padding: 0px 20px 0px 10px;
+    background: #f8e300;
+    position: relative;
+    color: #000;
+    bottom: 0em;
+    left: 0em;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .texto {
+    position: relative;
+    width: 87%;
+    margin-top: -48px;
+    height: 100px;
+    float: left;
+    }
+
+    .titular_detalle_f {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #727272;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: "Roboto Slab";
+    }
+
+    .titular {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #FFF;
+    font-size: 28px;
+    line-height: 30px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular a {
+    color: #fff;
+    }
+
+    .titular a:hover {
+    color: #000;
+    text-decoration: none;
+    }
+
+    .titular_2 {
+    width: 100%;
+    float: left;
+    padding: 5px 10px 15px;
+    color: #000;
+    font-size: 28px;
+    line-height: 30px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    background: #f8e300;
+    }
+
+    .titular_2 a {
+    color: #000;
+    }
+
+    .titular_2:hover {
+    color: #35b7c3;
+    text-decoration: none;
+    }
+
+    .redes {
+    width: 30%;
+    height: auto;
+    top: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    .redes_icon {
+    width: 32%;
+    float: right;
+    text-align: right;
+    }
+
+    .redes_icon img {
+    width: 90%;
+    height: auto;
+    }
+
+    #tit-lomasvisto {
+    background: #e39602;
+    width: 100%;
+    height: 38px;
+    }
+
+    #tit-lomasvisto img {
+    text-align: right;
+    margin-left: 140px;
+    }
+
+    .texto_lomas {
+    width: 60%;
+    margin-top: 10px;
+    height: 100%;
+    float: left;
+    } 
+
+    .nota_lomas {
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    }
+
+    .creditos_lomas {
+    text-align: right;
+    font-size: 12px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .creditos_lomas span {
+       font-weight: bold; 
+    }
+
+    .titular_lomas {
+    font-size: 23px;
+    line-height: 27px;
+    color: #676767;
+    text-align: right;
+    margin-right: 10px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .titular_lomas a {
+    color: #8c8b8b;   
+    }
+
+    .titular_lomas a:hover {
+    color: #e39602;
+    text-decoration: none;   
+    }
+
+    #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    #myImg:hover {opacity: 0.7;}
+
+    #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    #myImg2:hover {opacity: 0.7;}
+
+
+    .foto_lomas {
+    width: 40%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    } 
+
+    .foto_lomas img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .foto-lomas-inicio {
+    width: 40%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    } 
+
+    .foto-lomas-inicio img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .linea_lomas {
+    width: 80%;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    float: left;
+    margin-left:10%;
+    border: 1px solid #eaeaea;
+    }
+
+    .bloque-3notas {
+    float: left;
+    margin-top: 55px;
+    width: 100%;
+    height: auto;
+    }
+
+    .nota-cuadro_caja {
+    width: 32.5%;
+    float: left;
+    margin-left: 0.8% !important;;
+    margin-top: 0px;
+    }
+
+    .nota-cuadro_unica {
+    width: 100%;
+    float: left;
+    margin-left: 0.8% !important;;
+    margin-top: 0px;
+    }
+
+    .nota-cuadro_caja_publicidad {
+    display: block;
+    width: 32.3%;
+    margin-left: 1% !important;
+    margin-top: 40px;
+    float: left;
+    }
+
+    .nota-cuadro_caja_2 {
+    width: 48.8%;
+    float: left;
+    margin-left: 1.2% !important;
+    }
+
+    .nota-cuadro_doble {
+    width: 100%;
+    float: left;
+    }
+
+    .nota_cuadro {
+    width: 100%;
+    }
+
+    .imagen img {
+    width: 100%;
+    }
+
+    .seccion-cuadro {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: -20px;
+    position: relative;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .seccion-cuadro_2 {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: -20px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .redes_cuadro {
+    width: 45%;
+    height: auto;
+    bottom: 0.4em;
+    right: 0.4em;
+    position: absolute;
+    }
+
+    #horoscopo {
+
+    }
+
+    .texto_cuadro {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    float: left;
+    }
+
+    .titular_cuadro {
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #35b7c3;
+    }
+
+    .titular_verde {
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    background: #bfcf04;
+    }
+
+    .titular_cuadro a {
+    color: #fff;
+    }
+
+    .titular_cuadro:hover {
+    color: #000;
+    background: #f8e300;
+    text-decoration: none;
+    }
+
+    .titular_verde a {
+        color: #000;
+    }
+
+    .titular_verde:hover {
+        color: #fff;
+        background: #35b7c3;
+        text-decoration: none;
+    }
+
+    .horoscopo_tit {
+    display: block;
+    float: left;
+    margin-left: 40%;
+    margin-top: -30px;
+    position: relative;
+    }
+
+    #columnista_bg {
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+    background-image: url("../images/bg_column.png");
+    }
+
+    .columnistas_tit {
+    float: left;
+    margin-left: 1.2%;
+    margin-top: -42px;
+    position: relative;
+    }
+
+    #linea_horos {
+    display: block;
+    width: 98%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border: 1px solid #eaeaea;
+    }
+
+    .linea_vermas {
+    width: 98%;
+    margin-top: 57px;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 0.8%;
+    border-bottom: 1px solid #d6d6d6; 
+    }
+
+    .linea_columnista {
+    margin-top: 80px;
+    position: relative;
+    width: 82% !important;
+    float: left!important;
+    margin-left: 150px;
+    border: 1px solid #d6d6d6;
+    }
+
+    #horoscopo_bg {
+    float: left;
+    width: 100%;
+    height: 235px;
+    margin-top: 25px;
+    background-image: url("../images/bg_horos.jpg");
+    background-size: none;
+    }
+
+    .border_horos {
+    display: none;
+    width: 92.5%;
+    margin-left: 3%;
+    margin-top: 2.5%;
+    height: 350px;
+    position: absolute;
+    border: 1px solid #B3B2B2;
+    }
+
+    #columnista_bg {
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+    background-image: url("../images/bg_column.png");
+    }
+
+    .sib_principal {
+    float: left;
+    margin-left: 25px;
+    }
+
+    .sib_principal_detalle {
+    float: left;
+    margin-left: 25px;
+    position: absolute;
+    }
+
+    .nob_fecha {
+    float: left;
+    }
+
+    .nob_fecha_detalle {
+    float: right;
+    }
+
+    .nombre_horoscopo {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 45px;
+    line-height: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+    .nombre_horoscopo_detalle {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+    .fecha_mes {
+    float: right;
+    margin-right: 0px;
+    font-weight: bold;
+    }
+
+    .fecha_mes_detalle {
+    float: right;
+    margin-right: 0px;
+    font-weight: bold;
+    margin-top: -10px;
+    font-size: 13px;
+    margin-right: 17px;
+    }
+
+    .texto_horoscopo {
+    float: left;
+    width: 55%;
+    color: #000;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: "Open sans Condensed";
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+
+    .horoscopo_12 {
+    display: block;
+    width: 720px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+
+    .vertodos {
+    width: 166px;
+    float: left;
+    margin-left: 30px;
+    }
+
+    .vertodos_detalle {
+    width: 166px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 35px;
+    }
+
+    .vertodos_detalle {
+    width: 166px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 35px;
+    }
+
+    .header_tw {
+    display: block;
+    float: left;
+    margin-top: 0px;
+    }
+
+    .header_tw img {
+    width: 100%;
+    }
+
+    .carrusel_ancho {
+    position: relative !important;
+    width: 1000px !important;
+    display: block !important;
+    margin-left: -30px;
+    }
+
+    .nota-column {
+    width: 100%;
+    }
+
+    .nota-colum-3 {
+        float: left;
+        width: 30%;
+    }
+
+    .foto_column {
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+
+    .foto_column img {
+    width: 180px;
+    height: 180px;   
+    }
+
+    .nombre_columnista {
+    display: inline;
+    padding: 0px 30px 0px 10px;
+    background: #f8e300;
+    margin-top: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .titular_column {
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    float: left;
+    padding: 5px 5px 15px;
+    color: #000;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "Roboto Slab";
+    }
+
+    .titular_column a {
+    color: #000;
+    }
+
+    .titular_column a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .lineacolum {
+        float: left;
+        margin: 0 15px 0 15px;
+    }
+
+    .caja_colum {
+        width: 900px;
+        margin-left: 50px;
+        text-align: center; 
+        float: left;
+    }
+
+    .caja_colum ul {
+        list-style-type: none;
+        float: left;
+    }
+
+    .caja_colum li {
+        float: left;
+    }
+
+    .vermas_facetas {
+    float: left;
+    margin-left: 26.5%;
+    position: absolute;
+    }
+
+    .vermas_facetas_text {
+    float: left;
+    margin-left: 455px;
+    position: absolute;
+    }
+
+    .loader_facetas {
+    width: 111px;
+    height: 111px;
+    margin-left: 445px;
+    background-image: url(../images/loader_facetas.png);
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    }
+
+    .loader_facetas:hover {
+    width: 111px;
+    height: 111px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    }
+
+    .tres_btn_box {
+    float: left;
+    width: 94%;
+    background: #f39400;
+    height: 45px;
+    margin-left: 29px;
+    margin-top: 90px;
+    }
+
+    .tres_btn_1 {
+    width: initial;
+    float: left;
+    margin-top: 5px;
+    margin-left: 120px;
+    margin-right: 10px;
+    }
+
+    .tres_btn {
+    width: initial;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+    .tres_btn_linea {
+    width: 5px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-image: url("../images/linea_btn_orange.png");  
+    }
+
+    .footer_facetas {
+    width: 100%;
+    height: 255px;
+    float: left;
+    background-image: url(../images/bg_footer_facetas.png);
+    }
+
+    .facetas_btn {
+        float: left;
+        width: 300px;
+        height: 255px;
+        margin-left: 360px;
+    }
+
+    .face_logo_foot {
+        float: left;
+        width: 255px;
+        height: 105px;
+        background-image: url(../images/facetas_logo_footer.png);
+        background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px !important;
+    }
+
+    .face_logo_foot:hover {
+        float: left;
+        width: 255px;
+        height: 105px;
+        background-image: url(../images/facetas_logo_footer_hover.png);
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .face_logo_foot img {
+        width: 85%;
+    }
+
+    .face_logo_foot_redes {
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px !important;
+    margin-right: 15px;
+    }
+
+    .face_logo_foot_redes img {
+        width: 45%;
+    }
+
+    .face_pano_foot {
+    float: left;
+    width: 216px;
+    height: 20px;
+    text-align: center;
+    margin-left: 30px;
+    }
+
+    .face_pano_foot img {
+        width: 100%;
+    }
+
+    .subir_facetas {
+        float: right;
+        margin-top: 170px;
+        margin-right: 50px;
+    }
+
+    .insta_web {
+        display: block;
+        margin-left: 4%;
+    }
+
+    .insta_tablet {
+        display: none;
+    }
+
+    .widget_tw {
+    width: 100%;
+    margin-left: 0%;
+    }
+
+    .publicidad-avances {
+        display: block;
+    }
+
+    .publicidad {
+        display: block;
+    }
+
+     /* Detalle de noticia -------------------------------------------------------*/
+    .top_seccion_detalle {
+    display: block;
+    margin-top: 0px;
+    }
+
+    .valoracion_facetas {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 100%;
+    float: left;
+    background: #fff;
+    }
+
+    .fecha_detalle_facetas {
+    float: left;
+    color: #8f8f8f;
+    margin-top: 18px;
+    font-size: 16px;
+    margin-left: 20px;
+    }
+
+    .iconos_face_detalle {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px !important;
+    float: none;
+    }
+
+    .ico_ws {
+    display: none;
+    }
+
+    .tit_foto_facetas {
+    float: left;
+    padding: 0px 30px 0px 10px;
+    background: #35b7c3;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-family: arial;
+    }
+
+    .cuerpo_facetas {
+    float: left;
+    color: #b8b4b4;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 0px;
+    line-height: 25px;
+    }
+
+    .like_1_facetas {
+    width: 20%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 70px;
+    }
+
+    .like_1_facetas img {
+        width: 65%;
+    }
+
+    .like_2_facetas {
+    width: 20%;
+    height: auto;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 2%;
+    }
+
+    .like_2_facetas img {
+        width: 65%;
+    }
+
+    .text-like_facetas {
+    margin-top: 35px;
+    float: left;
+    }
+
+    .cant-like_facetas {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    color: #e39602;
+    left: -6px;
+    position: relative;
+    }
+
+    .tit-relac_facetas {
+    background: #e39602;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    }
+
+    .nota_rela_facetas {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    }
+
+    .texto_rela_facetas {
+    width: 60%;
+    margin-top: 10px;
+    height: 100%;
+    float: right;
+    }
+
+    .creditos_rela_facetas {
+    text-align: left;
+    font-size: 11px;
+    margin-left: 5px;
+    color: #4A4A4A;
+    width: 100%;
+    height: 10%;
+    }
+
+    .titular_rela_facetas {
+    font-size: 20px;
+    line-height: 23px;
+    color: #676767;
+    text-align: left;
+    margin-right: 15px;
+    padding-left: 5px;
+    font-family: "Open sans Condensed";
+    font-weight: normal;
+    }
+
+    .titular_rela_facetas a {
+        color: #676767;
+        text-decoration: none;
+    }
+
+    .titular_rela_facetas a:hover {
+        color: #e39602;
+        text-decoration: none;
+    }
+
+    .foto_rela_facetas img {
+    width: 100px;
+    height: 100px;
+    }
+
+    .tit-comment_facetas {
+    background: #26b8c3;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .tit-mas_facetas {
+    background: #ff165d;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: "Roboto Slab";
+    }
+
+    .text-coment_facetas {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .text-coment-2_facetas {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    float: left;
+    color: #8f8f8f;
+    }
+
+    .btn-comment_facetas {
+    float: left;
+    color: #26b8c3;
+    font-family: "Roboto Slab";
+    font-weight: bolder;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px 5px;
+    line-height: 25px;
+    }
+
+    .btn-comment_facetas a:hover {
+     color: #26b8c3 !important;
+     text-decoration: none;   
+    }
+
+    a {
+    text-decoration: none !important;
+    }
+
+    .comentarios-login_facetas {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .border_btn {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    }
+
+    .border_btn_2 {
+    border-bottom: 1px solid #a1a1a1;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    }
+
+    .iniciar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 165px;
+    }
+
+    .registrar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    }
+
+    .cancelar_facetas {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 145px;
+    }
+
+    .comentarios-box_facetas {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    background: #fff;
+    border: 3px solid #26b8c3;
+    }
+
+    .comenta-box_facetas {
+    border: 2px solid #26b8c3 !important;
+    }
+
+    .username_facetas {
+    width: 100%;
+    font-size: 600 13px;
+    color: #26b8c3;
+    text-transform: uppercase;
+    float: left;
+    }
+
+    .usernumber_facetas {
+    display: inline-block;
+    width: 29px;
+    height: 24px;
+    font-size: 13px;
+    color: #26b8c3;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+    margin-right: 3px;
+    vertical-align: top;
+    line-height: 24px;
+    border: 1px solid #26b8c3;
+    }
+
+    .report_facetas {
+    font: 13px "Arial";
+    color: #26b8c3 !important;
+    margin-left: 8px;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    }
+
+    .report_facetas a {
+    color: #26b8c3 !important;  
+    }
+
+    .responder_facetas {
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    }
+
+    .vermas_fa_detalle {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 445px;
+    margin-top: -65px;
+    }  
+    
+
+    .userphoto_facetas {
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    background-image: url(../images/user_facetas.jpg);
+    }
+
+    .publicidad-3 {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    }
+
+}
+
+@media screen and (min-width: 1340px) {
+    .carrusel_ancho {
+    position: relative !important;
+    width: 1000px !important;
+    display: block !important;
+    margin-left: 70px;
+    }
+
+        .laterales {
+        display: block;
+        width:1330px; 
+        margin: auto;
+        }
+
+    .lateral1 {
+        display: block;
+        width:160px;
+        height:600px;
+        float: left;
+        /* background: #ccc; */
+    }
+
+    .lateral2 {
+        display: block;
+        width:160px;
+        height:600px;
+        float: right;
+        /* background: #555; */
+    }
+
+}
